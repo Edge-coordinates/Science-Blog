@@ -1,0 +1,103 @@
+---
+title: Windows快捷键大全
+categories:
+- Configure
+tags:
+- Windows
+---
+
+
+
+## Windows篇
+
+### 键盘上相当于鼠标右键的快捷键
+1、右边win键的右边的键  
+(有的电脑没有，我电脑上没有右win键，但在右边的`FN`键的右边有一个类似菜单的键，可代替鼠标右键)  
+2、Shift+F10。
+
+### Win快捷键
+单独按Windows：显示或隐藏 “开始”功能表  
+Windows+D：显示桌面(最小化所有窗口，再按一次可以打开)。  
+Windows+M: 最小化所有窗口
+Windows+Shift+M: 还原所有被最小化了的窗口。
+Windows+E：开启“资源管理器”  
+Windows+F：查找文件或文件夹  
+Windows+CTRL+ F：查找电脑  
+Windows+F1：显示 Windows “帮助”  
+Windows+R：开启“运行” 对话框  
+Windows+U：开启 “公用程序管理器”
+Windows+L：切换使用者（Windows XP新功能）
+
+### Ctrl快捷键  
+Ctrl+S 保存  
+Ctrl+W 关闭程序  
+Ctrl+N 新建  
+Ctrl+O 打开  
+Ctrl+Z 撤销  
+Ctrl+F 查找  
+Ctrl+X 剪切  
+Ctrl+C 复制  
+Ctrl+V 粘贴  
+Ctrl+A 全选  
+Ctrl+[ 缩小文字  
+Ctrl+] 放大文字  
+Ctrl+B 粗体  
+Ctrl+I 斜体  
+Ctrl+U 下划线  
+Ctrl+Shift 输入法切换  
+Ctrl+空格 中英文切换  
+Ctrl+回车 QQ号中发送信息  
+Ctrl+Home 光标快速移到文件头  
+Ctrl+End 光标快速移到文件尾  
+Ctrl+Esc 显示开始菜单  
+Ctrl+Shift+< 快速缩小文字  
+Ctrl+Shift+> 快速放大文字  
+Ctrl+F5 在IE中强行刷新  
+Ctrl+拖动文件 复制文件  
+Ctrl+Shift转换输入法  
+Ctrl+Backspace 启动/关闭输入法  
+拖动文件时按住Ctrl+Shift 创建快捷方式    
+
+### Alt快捷键
+
+Alt+F4 关闭当前程序  
+Alt+空格+C 关闭窗口  
+Alt+空格+N 最小化当前窗口  
+Alt+空格+R 恢复最小化窗口  
+Alt+空格+X 最大化当前窗口  
+Alt+空格+M 移动窗口  
+Alt+空格+S 改变窗口大小  
+Alt+Tab 两个程序交换  
+Alt+F 打开文件菜单  
+Alt+V 打开视图菜单  
+Alt+E 打开编辑菜单  
+Alt+I 打开插入菜单  
+Alt+O 打开格式菜单  
+Alt+T 打开工具菜单  
+Alt+A 打开表格菜单  
+Alt+W 打开窗口菜单  
+Alt+H 打开帮助菜单  
+Alt+回车 查看文件属性  
+Alt+双击文件 查看文件属性  
+Alt+X 关闭C语言  
+
+
+### Shift快捷键
+Shift+空格 半/全角切换  
+Shift+右击 右菜单打开方式  
+Shift+F10 选中文件的右菜单  
+Shift+多级文件 全部关闭  
+Shift+Del 直接删除文件  
+Shift+＾ 处在中文标点符号半角在智能ABC中省曰号  
+Shift+/ 处在中文标点符号半角在智能ABC中顿号  
+
+
+
+### 常规键盘快捷键
+Ctrl + C 复制。  
+Ctrl + X 剪切。  
+Ctrl + V 粘贴。   
+Ctrl + Z 撤消。  
+DELETE 删除。  
+Shift + Delete 永久删除所选项，而不将它放到“回收站”中。  
+s'd'f
