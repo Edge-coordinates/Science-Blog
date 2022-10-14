@@ -1,10 +1,11 @@
 ---
 title: Scrapy 入门教程
 categories:
-- Python
+  - Python
 tags:
-- Scrapy
+  - Scrapy
 reprint: true
+abbrlink: b2c7d74
 ---
 
 

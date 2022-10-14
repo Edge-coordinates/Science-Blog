@@ -1,7 +1,8 @@
 ---
 title: Hexo使用自动Front-matter生成器为每篇文章(包括新文章)添加Front-matter
 categories:
-- Life
+  - Life
+abbrlink: 2d05a2ab
 tags:
 ---
 

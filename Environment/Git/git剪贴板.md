@@ -1,7 +1,8 @@
 ---
 title: git剪贴板
 categories:
-- Git
+  - Git
+abbrlink: 9334006c
 tags:
 ---
 

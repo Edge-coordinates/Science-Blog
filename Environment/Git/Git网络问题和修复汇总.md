@@ -1,7 +1,8 @@
 ---
 title: Git网络问题和修复汇总
 categories:
-- Git
+  - Git
+abbrlink: f2b8499d
 tags:
 ---
 

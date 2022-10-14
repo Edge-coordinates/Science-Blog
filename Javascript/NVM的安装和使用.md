@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 ## 准备，下载与安装
 
 **本文在[nvm.uihtm.com](https://nvm.uihtm.com/)的基础上略加修改**  

@@ -1,9 +1,10 @@
 ---
-title: 编程环境配置(VScode,Vim等)
+title: '编程环境配置(VScode,Vim等)'
 categories:
-- Configure
+  - Configure
 tags:
-- VSCode
+  - VSCode
+abbrlink: 4dd4948d
 ---
 
 

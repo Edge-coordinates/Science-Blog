@@ -1,7 +1,8 @@
 ---
 title: Vim详细配置教程
 categories:
-- Configure
+  - Configure
+abbrlink: a6d1c31
 tags:
 ---
 

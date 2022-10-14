@@ -1,9 +1,10 @@
 ---
 title: VSCode系列-目录
 categories:
-- Configure
+  - Configure
 tags:
-- VSCode
+  - VSCode
+abbrlink: 4b200d21
 ---
 
 

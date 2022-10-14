@@ -1,7 +1,8 @@
 ---
 title: Linux (CentOS)食用方法
 categories:
-- Linux
+  - Linux
+abbrlink: c6d81c2b
 tags:
 ---
 

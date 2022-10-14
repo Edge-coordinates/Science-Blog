@@ -1,7 +1,8 @@
 ---
 title: simpread-Archlinux（2020.11.1）系统安装及 kde 桌面环境配置
 categories:
-- Linux
+  - Linux
+abbrlink: daa51e6a
 tags:
 ---
 

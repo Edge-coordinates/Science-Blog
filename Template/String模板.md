@@ -1,7 +1,8 @@
 ---
 title: String模板
 categories:
-- Template
+  - Template
+abbrlink: b00469aa
 tags:
 ---
 

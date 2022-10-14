@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 > 本文转自[CSDN](https://blog.csdn.net/chijiajing/article/details/83147965)
 
 - [共享变量](#共享变量)

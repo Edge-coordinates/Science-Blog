@@ -1,7 +1,8 @@
 ---
 title: Django工程目录详解
 categories:
-- Django
+  - Django
+abbrlink: f2f07b2
 tags:
 ---
 

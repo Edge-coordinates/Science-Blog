@@ -1,7 +1,8 @@
 ---
 title: 随即图片API的使用(同一页面请求多张图浏览器缓存导致图片相同的解决方案)
 categories:
-- Life
+  - Life
+abbrlink: a58b9735
 tags:
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: WorldEdit 教程&命令列表
 categories:
-- Minecraft
+  - Minecraft
+abbrlink: 4ed2dd42
 tags:
 ---
 

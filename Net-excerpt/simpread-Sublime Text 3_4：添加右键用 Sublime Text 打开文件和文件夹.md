@@ -1,9 +1,10 @@
 ---
 title: simpread-Sublime Text 3_4：添加右键用 Sublime Text 打开文件和文件夹
 categories:
-- Net-excerpt
-tags:
+  - Net-excerpt
 reprint: true
+abbrlink: 8ea33b3a
+tags:
 ---
 
 

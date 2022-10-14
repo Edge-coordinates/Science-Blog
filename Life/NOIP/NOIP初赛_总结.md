@@ -1,7 +1,8 @@
 ---
 title: NOIP初赛_总结
 categories:
-- NOIP
+  - NOIP
+abbrlink: d1c6b817
 tags:
 ---
 

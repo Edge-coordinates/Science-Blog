@@ -1,7 +1,8 @@
 ---
 title: 在 VM Linux中装载共享文件夹
 categories:
-- Linux
+  - Linux
+abbrlink: 703be9e5
 tags:
 ---
 

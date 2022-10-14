@@ -1,7 +1,8 @@
 ---
 title: Django 模板语言
 categories:
-- Django
+  - Django
+abbrlink: cc406683
 tags:
 ---
 

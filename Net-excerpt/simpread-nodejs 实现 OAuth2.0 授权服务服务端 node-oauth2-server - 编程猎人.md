@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.programminghunter.com](https://www.programminghunter.com/article/9119443063/)
 
 > nodejs 实现 OAuth2.0 授权服务服务端 node-oauth2-server，编程猎人，网罗编程知识和经验分享，解决编程疑难杂症。

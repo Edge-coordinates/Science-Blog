@@ -1,9 +1,10 @@
 ---
 title: 优雅的在Windows中调试C++程序
 categories:
-- C++
+  - C++
 tags:
-- Debug
+  - Debug
+abbrlink: fd01dc7a
 ---
 
 

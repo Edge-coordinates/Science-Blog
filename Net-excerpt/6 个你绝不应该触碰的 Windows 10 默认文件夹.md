@@ -1,9 +1,10 @@
 ---
 title: 6 个你绝不应该触碰的 Windows 10 默认文件夹
 categories:
-- Net-excerpt
-tags:
+  - Net-excerpt
 reprint: true
+abbrlink: 2ebf1526
+tags:
 ---
 
 

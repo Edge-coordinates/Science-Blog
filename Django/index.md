@@ -1,7 +1,8 @@
 ---
 title: index
 categories:
-- Django
+  - Django
+abbrlink: '80736701'
 tags:
 ---
 

@@ -1,9 +1,10 @@
 ---
 title: 调试 NOI Linux 中的调试
 categories:
-- C++
+  - C++
 tags:
-- Debug
+  - Debug
+abbrlink: 8c14664b
 ---
 
 

@@ -1,9 +1,10 @@
 ---
 title: C++ 之 system 函数_Lavi 的专栏 - CSDN 博客_system(
 categories:
-- Net-excerpt
-tags:
+  - Net-excerpt
 reprint: true
+abbrlink: 724ebb21
+tags:
 ---
 
 

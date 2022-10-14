@@ -1,7 +1,8 @@
 ---
 title: 挂载onedrive
 categories:
-- Linux
+  - Linux
+abbrlink: eb6a435c
 tags:
 ---
 

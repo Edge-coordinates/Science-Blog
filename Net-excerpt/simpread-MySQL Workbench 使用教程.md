@@ -1,9 +1,10 @@
 ---
 title: simpread-MySQL Workbench 使用教程
 categories:
-- Net-excerpt
-tags:
+  - Net-excerpt
 reprint: true
+abbrlink: 427aebb1
+tags:
 ---
 
 

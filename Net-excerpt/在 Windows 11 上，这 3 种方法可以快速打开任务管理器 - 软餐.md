@@ -1,9 +1,10 @@
 ---
 title: 在 Windows 11 上，这 3 种方法可以快速打开任务管理器 - 软餐
 categories:
-- Net-excerpt
-tags:
+  - Net-excerpt
 reprint: true
+abbrlink: '1699152'
+tags:
 ---
 
 

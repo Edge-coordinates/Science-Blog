@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 **下界合金头盔：**
 
 /give @p minecraft:netherite_helmet{Enchantments:[{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:respiration,lvl:1},{id:aqua_affinity,lvl:1},{id:thorns,lvl:3},{id:mending,lvl:1}]}

@@ -1,7 +1,8 @@
 ---
-title: Django manage.py 的使用 
+title: Django manage.py 的使用
 categories:
-- Django
+  - Django
+abbrlink: d507424
 tags:
 ---
 

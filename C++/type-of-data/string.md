@@ -1,9 +1,10 @@
 ---
 title: string
 categories:
-- C++
+  - C++
 tags:
-- type-of-data
+  - type-of-data
+abbrlink: 9ebeb2a9
 ---
 
 

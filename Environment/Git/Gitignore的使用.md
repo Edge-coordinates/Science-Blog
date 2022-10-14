@@ -1,7 +1,8 @@
 ---
 title: Gitignore的使用
 categories:
-- Git
+  - Git
+abbrlink: 1ae30c16
 tags:
 ---
 

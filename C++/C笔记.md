@@ -1,7 +1,8 @@
 ---
 title: C笔记
 categories:
-- C++
+  - C++
+abbrlink: 382f3c37
 tags:
 ---
 

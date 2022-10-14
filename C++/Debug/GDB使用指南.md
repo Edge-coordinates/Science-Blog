@@ -1,9 +1,10 @@
 ---
 title: GDB使用指南
 categories:
-- C++
+  - C++
 tags:
-- Debug
+  - Debug
+abbrlink: a9afe229
 ---
 
 

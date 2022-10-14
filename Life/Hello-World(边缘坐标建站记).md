@@ -1,12 +1,13 @@
 ---
 title: Hello-World(边缘坐标建站记)
 categories:
-- Life
-tags:
+  - Life
 Flagold: true
-cover: https://i.loli.net/2019/07/21/5d33d5dc1531213134.png
+cover: 'https://i.loli.net/2019/07/21/5d33d5dc1531213134.png'
 coverWidth: 1200
 coverHeight: 750
+abbrlink: 9cfa9e0a
+tags:
 ---
 
 ## 2022/8/6 一些记录

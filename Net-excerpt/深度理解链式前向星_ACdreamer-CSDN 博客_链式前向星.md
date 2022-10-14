@@ -1,9 +1,10 @@
 ---
 title: 深度理解链式前向星_ACdreamer-CSDN 博客_链式前向星
 categories:
-- Net-excerpt
-tags:
+  - Net-excerpt
 reprint: true
+abbrlink: '88079146'
+tags:
 ---
 
 

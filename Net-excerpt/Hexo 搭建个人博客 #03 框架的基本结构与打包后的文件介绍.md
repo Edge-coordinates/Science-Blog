@@ -1,9 +1,10 @@
 ---
-title: Hexo 搭建个人博客 #03 框架的基本结构与打包后的文件介绍
+title: Hexo 搭建个人博客
 categories:
-- Net-excerpt
-tags:
+  - Net-excerpt
 reprint: true
+abbrlink: a5f2157f
+tags:
 ---
 
 

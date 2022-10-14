@@ -1,7 +1,8 @@
 ---
 title: simpread-(31 条消息) Django 开发中关于复选框的使用_水痕 01 的博客 - CSDN 博客_django 复选框
 categories:
-- Django
+  - Django
+abbrlink: ac834046
 tags:
 ---
 

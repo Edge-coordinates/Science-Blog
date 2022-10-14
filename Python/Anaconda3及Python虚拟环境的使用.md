@@ -1,7 +1,8 @@
 ---
 title: Anaconda3及Python虚拟环境的使用
 categories:
-- Python
+  - Python
+abbrlink: 4bd75ebc
 tags:
 ---
 

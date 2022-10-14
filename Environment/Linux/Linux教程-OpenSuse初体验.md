@@ -1,7 +1,8 @@
 ---
 title: Linux教程-OpenSuse初体验
 categories:
-- Linux
+  - Linux
+abbrlink: de79e665
 tags:
 ---
 

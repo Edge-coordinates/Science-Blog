@@ -1,9 +1,10 @@
 ---
 title: Windows11安装及使用Android应用
 categories:
-- Configure
+  - Configure
 tags:
-- Windows
+  - Windows
+abbrlink: 1e7cf617
 ---
 
 

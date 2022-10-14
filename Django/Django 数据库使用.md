@@ -1,7 +1,8 @@
 ---
 title: Django 数据库使用
 categories:
-- Django
+  - Django
+abbrlink: '61210093'
 tags:
 ---
 

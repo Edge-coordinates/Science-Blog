@@ -1,7 +1,8 @@
 ---
 title: PostgreSQL学习笔记
 categories:
-- Environment
+  - Environment
+abbrlink: 95327e2f
 tags:
 ---
 

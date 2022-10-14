@@ -1,7 +1,8 @@
 ---
 title: simpread-以官方 Wiki 的方式安装 ArchLinux _ viseator's blog
 categories:
-- Linux
+  - Linux
+abbrlink: dbc3380d
 tags:
 ---
 

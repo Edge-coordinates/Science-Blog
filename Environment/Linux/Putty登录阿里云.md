@@ -1,7 +1,8 @@
 ---
 title: Putty登录阿里云
 categories:
-- Linux
+  - Linux
+abbrlink: aa965bab
 tags:
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Python网络爬虫-requests库使用指南
 categories:
-- Python
+  - Python
+abbrlink: f520aaed
 tags:
 ---
 

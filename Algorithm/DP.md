@@ -1,7 +1,8 @@
 ---
 title: DP
 categories:
-- Algorithm
+  - Algorithm
+abbrlink: bea7c90a
 tags:
 ---
 

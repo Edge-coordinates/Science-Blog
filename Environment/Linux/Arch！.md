@@ -1,7 +1,8 @@
 ---
 title: Arch！
 categories:
-- Linux
+  - Linux
+abbrlink: 698b1a97
 tags:
 ---
 

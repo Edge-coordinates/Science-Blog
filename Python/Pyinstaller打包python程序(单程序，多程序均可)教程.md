@@ -1,7 +1,8 @@
 ---
 title: Pyinstaller打包python程序(单程序，多程序均可)教程
 categories:
-- Python
+  - Python
+abbrlink: 4a00808d
 tags:
 ---
 

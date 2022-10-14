@@ -1,9 +1,10 @@
 ---
 title: WorldEdit  教程
 categories:
-- Minecraft
-tags:
+  - Minecraft
 reprint: true
+abbrlink: 8568c97d
+tags:
 ---
 - [WorldEdit 使用教程](#worldedit-使用教程)
   - [命令](#命令)

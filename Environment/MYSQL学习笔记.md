@@ -1,7 +1,8 @@
 ---
 title: MYSQL学习笔记
 categories:
-- Environment
+  - Environment
+abbrlink: e613c698
 tags:
 ---
 

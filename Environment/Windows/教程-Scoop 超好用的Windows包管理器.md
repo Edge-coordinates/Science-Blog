@@ -1,7 +1,8 @@
 ---
 title: 教程-Scoop 超好用的Windows包管理器
 categories:
-- Configure
+  - Configure
+abbrlink: 9bf6b53b
 tags:
 ---
 

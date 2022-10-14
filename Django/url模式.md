@@ -1,7 +1,8 @@
 ---
 title: url模式
 categories:
-- Django
+  - Django
+abbrlink: 119d1dae
 tags:
 ---
 

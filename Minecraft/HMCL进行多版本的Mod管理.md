@@ -1,7 +1,8 @@
 ---
 title: HMCL进行多版本的Mod管理
 categories:
-- Minecraft
+  - Minecraft
+abbrlink: 1864dd18
 tags:
 ---
 

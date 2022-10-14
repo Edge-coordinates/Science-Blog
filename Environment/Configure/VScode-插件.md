@@ -1,9 +1,10 @@
 ---
 title: VScode-插件
 categories:
-- Configure
+  - Configure
 tags:
-- VSCode
+  - VSCode
+abbrlink: 5cf04078
 ---
 
 

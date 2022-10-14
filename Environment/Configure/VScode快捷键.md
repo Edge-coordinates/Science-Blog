@@ -1,7 +1,8 @@
 ---
 title: VScode快捷键
 categories:
-- Configure
+  - Configure
+abbrlink: af83e57c
 tags:
 ---
 

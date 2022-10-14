@@ -1,9 +1,10 @@
 ---
 title: srstem
 categories:
-- C++
+  - C++
 tags:
-- Library-Functions
+  - Library-Functions
+abbrlink: be9d209a
 ---
 
 

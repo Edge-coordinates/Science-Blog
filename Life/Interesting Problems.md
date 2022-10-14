@@ -1,7 +1,8 @@
 ---
 title: Interesting Problems
 categories:
-- Life
+  - Life
+abbrlink: a976e6e0
 tags:
 ---
 

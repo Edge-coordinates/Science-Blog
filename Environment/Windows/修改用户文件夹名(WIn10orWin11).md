@@ -1,9 +1,10 @@
 ---
 title: 修改用户文件夹名(WIn10orWin11)
 categories:
-- Configure
+  - Configure
 tags:
-- Windows
+  - Windows
+abbrlink: b2a62941
 ---
 
 

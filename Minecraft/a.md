@@ -1,3 +1,6 @@
+---
+abbrlink: '0'
+---
 
 /give @p netherite_sword{display:{Name:'{"text":" 弑神 ","color":"gold"}'},Unbreakable:1,Enchantments:[{id:smite,lvl:2147483647},{id:sharpness,lvl:2147483647},{id:bane_of_arthropods,lvl:2147483647},{id:knockback,lvl:3},{id:fire_aspect,lvl:2147483647},{id:looting,lvl:10},{id:sweeping,lvl:2147483647},{id:unbreaking,lvl:2147483647},{id:mending,lvl:2147483647}]}
 

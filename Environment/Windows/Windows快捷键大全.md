@@ -1,9 +1,10 @@
 ---
 title: Windows快捷键大全
 categories:
-- Configure
+  - Configure
 tags:
-- Windows
+  - Windows
+abbrlink: aac09886
 ---
 
 

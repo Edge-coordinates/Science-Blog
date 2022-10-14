@@ -1,7 +1,8 @@
 ---
 title: AcWing 271. 杨老师的照相排列
 categories:
-- Solution
+  - Solution
+abbrlink: cb854ff4
 tags:
 ---
 

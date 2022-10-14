@@ -1,9 +1,10 @@
 ---
 title: 解决VScode的一些问题
 categories:
-- Configure
+  - Configure
 tags:
-- VSCode
+  - VSCode
+abbrlink: 6ed64ad2
 ---
 
 

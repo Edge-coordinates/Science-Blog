@@ -1,9 +1,12 @@
 ---
-title: 我在 bowlroll 投稿的 MMD 场景全被下架，原因竟是... (顺带 mmd 自动一键渲染教程) - 哔哩哔哩我在 bowlroll 投稿的 MMD 场景全被下架，原因竟是... (顺带 mmd 自动一键渲染教程) - 哔哩哔哩
+title: >-
+  我在 bowlroll 投稿的 MMD 场景全被下架，原因竟是... (顺带 mmd 自动一键渲染教程) - 哔哩哔哩我在 bowlroll 投稿的 MMD
+  场景全被下架，原因竟是... (顺带 mmd 自动一键渲染教程) - 哔哩哔哩
 categories:
-- Net-excerpt
-tags:
+  - Net-excerpt
 reprint: true
+abbrlink: 3494a12e
+tags:
 ---
 
 
