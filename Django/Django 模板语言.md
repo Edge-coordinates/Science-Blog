@@ -1,5 +1,6 @@
 ---
 title: Django 模板语言
+date: 2022/10/14
 categories:
   - Django
 abbrlink: cc406683

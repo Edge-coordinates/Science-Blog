@@ -1,6 +1,15 @@
 ---
-abbrlink: '0'
+title: simpread-Minecraft JAVA 版 1.16 最全满级装备指令 - 哔哩哔哩
+date: 2022/10/14
+
+categories:
+  - Minecraft
+abbrlink: 7465249a
+tags:
 ---
+
+
+
 **下界合金头盔：**
 
 /give @p minecraft:netherite_helmet{Enchantments:[{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:respiration,lvl:1},{id:aqua_affinity,lvl:1},{id:thorns,lvl:3},{id:mending,lvl:1}]}

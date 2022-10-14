@@ -1,5 +1,6 @@
 ---
 title: Gitignore的使用
+date: 2022/10/14
 categories:
   - Git
 abbrlink: 1ae30c16

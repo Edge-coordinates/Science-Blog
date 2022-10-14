@@ -1,5 +1,6 @@
 ---
 title: NOIP初赛_总结
+date: 2022/10/14
 categories:
   - NOIP
 abbrlink: d1c6b817

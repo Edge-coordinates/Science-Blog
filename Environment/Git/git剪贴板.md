@@ -1,5 +1,6 @@
 ---
 title: git剪贴板
+date: 2022/10/14
 categories:
   - Git
 abbrlink: 9334006c

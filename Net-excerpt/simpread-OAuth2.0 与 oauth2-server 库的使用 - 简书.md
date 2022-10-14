@@ -1,3 +1,15 @@
+---
+title: simpread-OAuth2.0 与 oauth2-server 库的使用 - 简书
+date: 2022/10/14
+
+categories:
+  - Net-excerpt
+reprint: true
+abbrlink: ff099914
+tags:
+---
+
+
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.jianshu.com](https://www.jianshu.com/p/83b0f6d82d6c)
 
 [OAuth2.0](https://en.wikipedia.org/wiki/OAuth) 是关于授权的开放网络标准，它允许用户已第三方应用获取该用户在某一网站的私密资源，而无需提供用户名与密码，目前已在全世界得到广泛应用。

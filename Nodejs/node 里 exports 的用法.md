@@ -1,6 +1,15 @@
 ---
-abbrlink: '0'
+title: node 里 exports 的用法
+date: 2022/10/14
+
+categories:
+  - Nodejs
+abbrlink: 7fa08968
+tags:
 ---
+
+
+
 > 本文转自[CSDN](https://blog.csdn.net/chijiajing/article/details/83147965)
 
 - [共享变量](#共享变量)

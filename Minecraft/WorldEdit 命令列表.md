@@ -1,5 +1,6 @@
 ---
 title: WorldEdit 教程&命令列表
+date: 2022/10/14
 categories:
   - Minecraft
 abbrlink: 4ed2dd42

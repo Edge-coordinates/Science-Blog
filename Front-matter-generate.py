@@ -21,13 +21,15 @@ tags:
 """
 
 import os
+import datetime
 
 def fm_dev(rpath, tname, oldf = []): # 生成Front-matter
     rpath = rpath.split(os.path.sep)
     tit = "title: " + tname + "\n"
-    tmpl = ["---\n", tit, "categories:\n", "tags:\n"]
+    tmpl = ["---\n", tit, "date: ", "categories:\n", "tags:\n"]
     tmpl = tmpl + oldf + ["---\n"]
-
+    
+    tmpl.insert(tmpl.index("date: "),"date: " + datetime.date.today().strftime('%Y/%m/%d') + "\n")
     if rpath[0] == '.': tmpl.insert(tmpl.index("categories:\n") + 1, "- Life\n") # 根目录下所有文件处于 Life 分类
     else: tmpl.insert(tmpl.index("categories:\n") + 1,"- " + rpath[0] + "\n")
 

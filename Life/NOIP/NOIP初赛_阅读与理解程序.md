@@ -1,5 +1,6 @@
 ---
 title: NOIP初赛_阅读与理解程序
+date: 2022/10/14
 categories:
   - NOIP
 abbrlink: 2c354d6a

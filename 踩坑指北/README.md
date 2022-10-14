@@ -1,6 +1,15 @@
 ---
-abbrlink: '0'
+title: README
+date: 2022/10/14
+
+categories:
+  - 踩坑指北
+abbrlink: 77cd4175
+tags:
 ---
+
+
+
 
 唔，今天是2022年10月6号，我建立了这篇文章，很神奇的事情，其实。
 

@@ -1,5 +1,6 @@
 ---
 title: simpread-MySQL Workbench 使用教程
+date: 2022/10/14
 categories:
   - Net-excerpt
 reprint: true

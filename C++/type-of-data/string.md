@@ -1,5 +1,6 @@
 ---
 title: string
+date: 2022/10/14
 categories:
   - C++
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Arch！
+date: 2022/10/14
 categories:
   - Linux
 abbrlink: 698b1a97

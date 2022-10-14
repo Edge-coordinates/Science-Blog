@@ -1,6 +1,7 @@
 ---
 abbrlink: '0'
 ---
+
 #不需要权限则设置为null
 permission: null
 # 计分板优先级

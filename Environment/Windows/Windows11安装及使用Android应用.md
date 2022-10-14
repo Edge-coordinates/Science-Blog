@@ -1,5 +1,6 @@
 ---
 title: Windows11安装及使用Android应用
+date: 2022/10/14
 categories:
   - Configure
 tags:

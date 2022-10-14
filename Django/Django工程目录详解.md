@@ -1,5 +1,6 @@
 ---
 title: Django工程目录详解
+date: 2022/10/14
 categories:
   - Django
 abbrlink: f2f07b2

@@ -1,5 +1,6 @@
 ---
 title: Hexo 搭建个人博客
+date: 2022/10/14
 categories:
   - Net-excerpt
 reprint: true

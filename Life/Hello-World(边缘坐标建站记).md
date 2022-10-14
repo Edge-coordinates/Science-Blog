@@ -1,5 +1,6 @@
 ---
 title: Hello-World(边缘坐标建站记)
+date: 2022/10/14
 categories:
   - Life
 Flagold: true

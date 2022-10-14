@@ -1,6 +1,16 @@
 ---
-abbrlink: '0'
+title: Windows下常用命令总结
+date: 2022/10/14
+
+categories:
+  - Environment
+tags:
+  - Windows
+abbrlink: d67c5edc
 ---
+
+
+
 # 
 作为一名专业瞎搞人员，记录一下自己常用的命令是非常必要的，只有这样，才可以最大化的在朋友面前~~装逼~~bushi。
 

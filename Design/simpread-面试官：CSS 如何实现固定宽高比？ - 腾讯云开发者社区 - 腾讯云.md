@@ -1,3 +1,14 @@
+---
+title: simpread-面试官：CSS 如何实现固定宽高比？ - 腾讯云开发者社区 - 腾讯云
+date: 2022/10/14
+
+categories:
+  - Design
+abbrlink: 5cc18268
+tags:
+---
+
+
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [cloud.tencent.com](https://cloud.tencent.com/developer/article/1609830)
 
 > 对于这个问题，你可能还没有过相关需求，或者还没有在面试的时候被问到过，但是歪马相信你终将有需要。

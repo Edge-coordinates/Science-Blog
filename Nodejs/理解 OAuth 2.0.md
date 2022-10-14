@@ -1,3 +1,14 @@
+---
+title: 理解 OAuth 2.0
+date: 2022/10/14
+
+categories:
+  - Nodejs
+abbrlink: 132293eb
+tags:
+---
+
+
 > 本文转载自[理解OAuth 2.0](https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 
 一、应用场景

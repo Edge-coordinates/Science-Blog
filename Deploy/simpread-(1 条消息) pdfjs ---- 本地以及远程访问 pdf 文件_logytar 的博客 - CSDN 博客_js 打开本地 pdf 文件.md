@@ -1,3 +1,16 @@
+---
+title: >-
+date: 2022/10/14
+  simpread-(1 条消息) pdfjs ---- 本地以及远程访问 pdf 文件_logytar 的博客 - CSDN 博客_js 打开本地 pdf
+  文件
+
+categories:
+  - Deploy
+abbrlink: 46d13b71
+tags:
+---
+
+
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/qiumen/article/details/83000284)
 
 _如何下载 pdfjs，可查看我的另外一篇博客文章_ 

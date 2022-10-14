@@ -1,5 +1,6 @@
 ---
 title: Hexo使用自动Front-matter生成器为每篇文章(包括新文章)添加Front-matter
+date: 2022/10/14
 categories:
   - Life
 abbrlink: 2d05a2ab

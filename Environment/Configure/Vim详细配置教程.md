@@ -1,5 +1,6 @@
 ---
 title: Vim详细配置教程
+date: 2022/10/14
 categories:
   - Configure
 abbrlink: a6d1c31

@@ -1,5 +1,6 @@
 ---
 title: index
+date: 2022/10/14
 categories:
   - Django
 abbrlink: '80736701'

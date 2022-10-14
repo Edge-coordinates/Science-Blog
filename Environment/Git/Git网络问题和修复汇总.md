@@ -1,5 +1,6 @@
 ---
 title: Git网络问题和修复汇总
+date: 2022/10/14
 categories:
   - Git
 abbrlink: f2b8499d

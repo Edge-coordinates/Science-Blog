@@ -1,5 +1,6 @@
 ---
 title: PostgreSQL学习笔记
+date: 2022/10/14
 categories:
   - Environment
 abbrlink: 95327e2f

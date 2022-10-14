@@ -1,5 +1,6 @@
 ---
 title: Anaconda3及Python虚拟环境的使用
+date: 2022/10/14
 categories:
   - Python
 abbrlink: 4bd75ebc

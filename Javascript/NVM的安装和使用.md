@@ -1,6 +1,14 @@
 ---
-abbrlink: '0'
+title: NVM的安装和使用
+date: 2022/10/14
+categories:
+  - Javascript
+abbrlink: 5a6c750f
+tags:
 ---
+
+
+
 ## 准备，下载与安装
 
 **本文在[nvm.uihtm.com](https://nvm.uihtm.com/)的基础上略加修改**  

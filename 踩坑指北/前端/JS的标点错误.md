@@ -1,5 +1,6 @@
 ---
 title: JS中的标点错误
+date: 2022/10/14
 categories:
   - 踩坑指北
 abbrlink: 807da433

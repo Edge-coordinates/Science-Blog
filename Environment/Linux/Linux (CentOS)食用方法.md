@@ -1,5 +1,6 @@
 ---
 title: Linux (CentOS)食用方法
+date: 2022/10/14
 categories:
   - Linux
 abbrlink: c6d81c2b

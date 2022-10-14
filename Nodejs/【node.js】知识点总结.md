@@ -1,6 +1,15 @@
 ---
-abbrlink: '0'
+title: 【node.js】知识点总结
+date: 2022/10/14
+
+categories:
+  - Nodejs
+abbrlink: 9827fede
+tags:
 ---
+
+
+
 **一、概念**
 
 *   Node.js 不是语言、不是库、不是框架；

@@ -1,5 +1,6 @@
 ---
 title: WorldEdit  教程
+date: 2022/10/14
 categories:
   - Minecraft
 reprint: true

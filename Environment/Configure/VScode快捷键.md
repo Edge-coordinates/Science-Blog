@@ -1,5 +1,6 @@
 ---
 title: VScode快捷键
+date: 2022/10/14
 categories:
   - Configure
 abbrlink: af83e57c

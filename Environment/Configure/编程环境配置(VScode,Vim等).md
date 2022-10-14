@@ -1,5 +1,6 @@
 ---
 title: '编程环境配置(VScode,Vim等)'
+date: 2022/10/14
 categories:
   - Configure
 tags:

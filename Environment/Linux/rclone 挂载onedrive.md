@@ -1,5 +1,6 @@
 ---
 title: 挂载onedrive
+date: 2022/10/14
 categories:
   - Linux
 abbrlink: eb6a435c

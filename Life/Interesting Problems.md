@@ -1,5 +1,6 @@
 ---
 title: Interesting Problems
+date: 2022/10/14
 categories:
   - Life
 abbrlink: a976e6e0
