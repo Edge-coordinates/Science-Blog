@@ -144,3 +144,7 @@ Unbreaking -- 耐久（减缓物品的损耗）
 制作教程和排版挺费心神的，点个赞说两两句再走叭。
 
 ![](http://i0.hdslb.com/bfs/article/02db465212d3c374a43c60fa2625cc1caeaab796.png)
+
+
+引雷，用于苦力怕
+/give @p trident{display:{Name:'{"text":" 戟 ","color":"gold"}'},Unbreakable:1,Enchantments:[{id:unbreaking,lvl: 2147483647},{id:loyalty,lvl:10},{id:channeling,lvl:2147483647}]}

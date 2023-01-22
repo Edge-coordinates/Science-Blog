@@ -8,8 +8,16 @@ tags:
 abbrlink: 5cf04078
 ---
 
+## 常用插件
+推荐一些常用的必装插件~
+### Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+[网站](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
 
-## PicGo -图库工具
+### ICON图标插件
+这里推荐两个图标插件，可以让你的VS
+
+## 写作辅助
+### PicGo -图库工具
 教程:[在VS Code中使用 Picgo + jsDelivr + Github搭建高速稳定图床](https://blog.csdn.net/kan2016/article/details/107507809)
 总结：打开设置，自上而下分别填入  
 ```
