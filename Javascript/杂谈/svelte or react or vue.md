@@ -1,3 +1,9 @@
+---
+title: svelte or react or vue
+date: 2024/11/2 23:22:27
+categories:
+  - [Javascript, 杂谈]
+---
 > sevelte 现在的生态怎么样，适合用来开发大型项目嘛？
 
 Svelte 是一个现代的 JavaScript 前端框架，具有高效的性能和简洁的语法，可用于构建 Web 应用程序。Svelte 的生态系统在过去几年中得到了显著的发展，并且已经有很多的插件和工具可用于增强开发体验。

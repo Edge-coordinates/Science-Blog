@@ -1,11 +1,10 @@
 ---
-title: simpread-Minecraft JAVA 版 1.16 最全满级装备指令 - 哔哩哔哩
+title: simpread-Minecraft JAVA 版 1
 date: 2022/10/14
-
 categories:
   - Minecraft
+tags: null
 abbrlink: 7465249a
-tags:
 ---
 
 

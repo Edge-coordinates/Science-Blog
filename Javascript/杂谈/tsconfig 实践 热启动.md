@@ -1,3 +1,9 @@
+---
+title: tsconfig 实践 热启动
+date: 2024/11/2 23:22:27
+categories:
+  - [Javascript, 杂谈]
+---
 > ts-node 是干什么的
 
 ts-node是一个命令行工具，用于在Node.js环境下运行TypeScript代码。通常情况下，在Node.js中运行TypeScript需要先将TypeScript代码编译成JavaScript代码，然后再用Node.js去执行编译后的JavaScript代码。而使用ts-node则可以直接运行TypeScript代码，而无需先编译成JavaScript代码。

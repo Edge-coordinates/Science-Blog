@@ -1,5 +1,9 @@
 ---
-abbrlink: '0'
+title: simpread-在 python 中运行命令行命令的四种方案 - 腾讯云开发者社区 - 腾讯云
+date: 2024/11/2 23:22:27
+categories:
+  - Net-excerpt
+abbrlink: "0"
 ---
 简介
 ==

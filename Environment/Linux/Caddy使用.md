@@ -2,9 +2,9 @@
 title: Caddy使用
 date: 2022/10/14
 categories:
-  - Linux
+  - [Environment, Linux]
+tags: null
 abbrlink: 77c82341
-tags:
 ---
 
 配置文件路径一般在： `/etc/caddy/Caddyfile`

@@ -2,7 +2,7 @@
 title: string
 date: 2022/10/14
 categories:
-  - C++
+  - [C++, type-of-data]
 tags:
   - type-of-data
 abbrlink: 9ebeb2a9

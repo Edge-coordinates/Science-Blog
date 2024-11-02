@@ -2,7 +2,7 @@
 title: 调试 NOI Linux 中的调试
 date: 2022/10/14
 categories:
-  - C++
+  - [C++, Debug]
 tags:
   - Debug
 abbrlink: 8c14664b

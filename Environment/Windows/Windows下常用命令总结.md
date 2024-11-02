@@ -1,9 +1,8 @@
 ---
 title: Windows下常用命令总结
 date: 2022/10/14
-
 categories:
-  - Environment
+  - [Environment, Windows]
 tags:
   - Windows
 abbrlink: d67c5edc

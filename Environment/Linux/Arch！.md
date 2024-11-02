@@ -2,9 +2,9 @@
 title: Arch！
 date: 2022/10/14
 categories:
-  - Linux
+  - [Environment, Linux]
+tags: null
 abbrlink: 698b1a97
-tags:
 ---
 
 

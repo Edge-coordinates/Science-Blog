@@ -1,12 +1,11 @@
 ---
-title: simpread-OAuth2.0 与 oauth2-server 库的使用 - 简书
+title: simpread-OAuth2
 date: 2022/10/14
-
 categories:
   - Net-excerpt
+tags: null
 reprint: true
 abbrlink: ff099914
-tags:
 ---
 
 

@@ -1,11 +1,11 @@
 ---
-title: 更新 linux gcc 版本到 gcc 4.4.2_奋斗中拥有 - CSDN 博客
+title: 更新 linux gcc 版本到 gcc 4
 date: 2022/10/14
 categories:
   - Net-excerpt
+tags: null
 reprint: true
 abbrlink: 98d74cdc
-tags:
 ---
 
 

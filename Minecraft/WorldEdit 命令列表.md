@@ -1,10 +1,10 @@
 ---
-title: WorldEdit 教程&命令列表
+title: WorldEdit 命令列表
 date: 2022/10/14
 categories:
   - Minecraft
+tags: null
 abbrlink: 4ed2dd42
-tags:
 ---
 
 # 命令列表

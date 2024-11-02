@@ -2,7 +2,7 @@
 title: Windows快捷键大全
 date: 2022/10/14
 categories:
-  - Configure
+  - [Environment, Windows]
 tags:
   - Windows
 abbrlink: aac09886

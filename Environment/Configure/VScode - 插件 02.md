@@ -1,3 +1,9 @@
+---
+title: VScode - 插件 02
+date: 2024/11/2 23:22:27
+categories:
+  - [Environment, Configure]
+---
 Ctrl + P -> 系
 
 键入 @： 查看所有函数/功能/区块

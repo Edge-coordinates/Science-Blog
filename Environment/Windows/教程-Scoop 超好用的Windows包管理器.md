@@ -2,9 +2,9 @@
 title: 教程-Scoop 超好用的Windows包管理器
 date: 2022/10/14
 categories:
-  - Configure
+  - [Environment, Windows]
+tags: null
 abbrlink: 9bf6b53b
-tags:
 ---
 
 

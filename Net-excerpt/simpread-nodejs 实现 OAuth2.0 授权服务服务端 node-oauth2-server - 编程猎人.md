@@ -1,12 +1,11 @@
 ---
-title: simpread-nodejs 实现 OAuth2.0 授权服务服务端 node-oauth2-server - 编程猎人
+title: simpread-nodejs 实现 OAuth2
 date: 2022/10/14
-
 categories:
   - Net-excerpt
+tags: null
 reprint: true
 abbrlink: 4009585d
-tags:
 ---
 
 

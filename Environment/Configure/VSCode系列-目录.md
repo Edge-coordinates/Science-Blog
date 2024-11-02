@@ -2,7 +2,7 @@
 title: VSCode系列-目录
 date: 2022/10/14
 categories:
-  - Configure
+  - [Environment, Configure]
 tags:
   - VSCode
 abbrlink: 4b200d21

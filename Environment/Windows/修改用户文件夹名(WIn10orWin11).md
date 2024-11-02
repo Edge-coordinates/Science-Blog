@@ -2,7 +2,7 @@
 title: 修改用户文件夹名(WIn10orWin11)
 date: 2022/10/14
 categories:
-  - Configure
+  - [Environment, Windows]
 tags:
   - Windows
 abbrlink: b2a62941

@@ -1,3 +1,9 @@
+---
+title: VSCode - 15 Great VS Code Keyboard Shortcuts
+date: 2024/11/2 23:22:27
+categories:
+  - [Environment, Configure]
+---
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.wearedevelopers.com](https://www.wearedevelopers.com/magazine/vs-code-shortcuts)
 
 > Maximize your efficiency with Visual Studio Code using these six VS code shortcuts. Explore now and l......

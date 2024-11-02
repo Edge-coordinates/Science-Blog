@@ -2,7 +2,7 @@
 title: Windows11安装及使用Android应用
 date: 2022/10/14
 categories:
-  - Configure
+  - [Environment, Windows]
 tags:
   - Windows
 abbrlink: 1e7cf617

@@ -2,7 +2,7 @@
 title: srstem
 date: 2022/10/14
 categories:
-  - C++
+  - [C++, Library-Functions]
 tags:
   - Library-Functions
 abbrlink: be9d209a

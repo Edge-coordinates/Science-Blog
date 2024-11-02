@@ -2,7 +2,7 @@
 title: 优雅的在Windows中调试C++程序
 date: 2022/10/14
 categories:
-  - C++
+  - [C++, Debug]
 tags:
   - Debug
 abbrlink: fd01dc7a

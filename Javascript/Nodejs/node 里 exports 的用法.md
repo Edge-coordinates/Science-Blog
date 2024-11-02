@@ -1,11 +1,10 @@
 ---
 title: node 里 exports 的用法
 date: 2022/10/14
-
 categories:
-  - Nodejs
+  - [Javascript, Nodejs]
+tags: null
 abbrlink: 7fa08968
-tags:
 ---
 
 

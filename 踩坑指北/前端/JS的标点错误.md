@@ -1,10 +1,10 @@
 ---
-title: JS中的标点错误
+title: JS的标点错误
 date: 2022/10/14
 categories:
-  - 踩坑指北
+  - [踩坑指北, 前端]
+tags: null
 abbrlink: 807da433
-tags:
 ---
 
 注意啊：

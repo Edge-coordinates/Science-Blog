@@ -1,8 +1,8 @@
 ---
-title: '编程环境配置(VScode,Vim等)'
+title: 编程环境配置(VScode,Vim等)
 date: 2022/10/14
 categories:
-  - Configure
+  - [Environment, Configure]
 tags:
   - VSCode
 abbrlink: 4dd4948d

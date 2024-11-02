@@ -2,9 +2,9 @@
 title: 在 VM Linux中装载共享文件夹
 date: 2022/10/14
 categories:
-  - Linux
+  - [Environment, Linux]
+tags: null
 abbrlink: 703be9e5
-tags:
 ---
 
 

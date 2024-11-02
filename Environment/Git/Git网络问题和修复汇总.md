@@ -2,9 +2,9 @@
 title: Git网络问题和修复汇总
 date: 2022/10/14
 categories:
-  - Git
+  - [Environment, Git]
+tags: null
 abbrlink: f2b8499d
-tags:
 ---
 
 

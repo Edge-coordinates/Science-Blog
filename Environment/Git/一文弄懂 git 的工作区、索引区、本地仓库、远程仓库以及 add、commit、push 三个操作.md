@@ -2,9 +2,9 @@
 title: 一文弄懂 git 的工作区、索引区、本地仓库、远程仓库以及 add、commit、push 三个操作
 date: 2022/10/14
 categories:
-  - Git
+  - [Environment, Git]
+tags: null
 abbrlink: 53ff069d
-tags:
 ---
 
 

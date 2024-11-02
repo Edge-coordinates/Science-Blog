@@ -1,3 +1,9 @@
+---
+title: 使用 Electron Forge 通过Yarn迅速建立新的项目
+date: 2024/11/2 23:22:27
+categories:
+  - [Javascript, Electronjs]
+---
 # electron-forge
 
 > Electron Forge is a tool for packaging and publishing Electron applications. It unifies Electron's tooling ecosystem into a single extensible interface so that anyone can jump right into making Electron apps.

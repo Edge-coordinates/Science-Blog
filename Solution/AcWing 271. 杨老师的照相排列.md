@@ -1,10 +1,10 @@
 ---
-title: AcWing 271. 杨老师的照相排列
+title: AcWing 271
 date: 2022/10/14
 categories:
   - Solution
+tags: null
 abbrlink: cb854ff4
-tags:
 ---
 
 

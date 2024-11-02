@@ -2,9 +2,9 @@
 title: Linux教程-OpenSuse初体验
 date: 2022/10/14
 categories:
-  - Linux
+  - [Environment, Linux]
+tags: null
 abbrlink: de79e665
-tags:
 ---
 
 
