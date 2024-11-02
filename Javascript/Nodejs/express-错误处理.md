@@ -1,8 +1,10 @@
 ---
 title: express-错误处理
-date: 2024/11/2 23:22:27
+date: '2024/11/2 23:22:27'
 categories:
-  - [Javascript, Nodejs]
+  - - Javascript
+    - Nodejs
+abbrlink: 8fbf0568
 ---
 在 Express.js 中，错误处理是通过特定的中间件来实现的。当在请求处理过程中发生错误时，Express.js会自动调用错误处理中间件来处理该错误。
 

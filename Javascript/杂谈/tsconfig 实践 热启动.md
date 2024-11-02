@@ -1,8 +1,10 @@
 ---
 title: tsconfig 实践 热启动
-date: 2024/11/2 23:22:27
+date: '2024/11/2 23:22:27'
 categories:
-  - [Javascript, 杂谈]
+  - - Javascript
+    - 杂谈
+abbrlink: c9638eb8
 ---
 > ts-node 是干什么的
 

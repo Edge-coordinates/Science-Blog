@@ -1,8 +1,10 @@
 ---
 title: VSCode快捷键 - 02
-date: 2024/11/2 23:22:27
+date: '2024/11/2 23:22:27'
 categories:
-  - [Environment, Configure]
+  - - Environment
+    - Configure
+abbrlink: 304e8f62
 ---
 from：https://gist.github.com/cleary/d168e301429c0305c49d97907796c72d
 

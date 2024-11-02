@@ -1,8 +1,10 @@
 ---
 title: svelte or react or vue
-date: 2024/11/2 23:22:27
+date: '2024/11/2 23:22:27'
 categories:
-  - [Javascript, 杂谈]
+  - - Javascript
+    - 杂谈
+abbrlink: 67c1f73d
 ---
 > sevelte 现在的生态怎么样，适合用来开发大型项目嘛？
 

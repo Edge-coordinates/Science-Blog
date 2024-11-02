@@ -1,8 +1,10 @@
 ---
 title: README
-date: 2024/11/2 23:22:27
+date: '2024/11/2 23:22:27'
 categories:
-  - [Javascript, Electronjs]
+  - - Javascript
+    - Electronjs
+abbrlink: 77cd4175
 ---
 # Electron 学习笔记
 

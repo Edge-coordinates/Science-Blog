@@ -1,8 +1,10 @@
 ---
 title: express-req and res
-date: 2024/11/2 23:22:27
+date: '2024/11/2 23:22:27'
 categories:
-  - [Javascript, Nodejs]
+  - - Javascript
+    - Nodejs
+abbrlink: d130de5a
 ---
 以下是一些常用的req对象的属性：
 

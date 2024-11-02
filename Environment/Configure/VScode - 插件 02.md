@@ -1,8 +1,10 @@
 ---
 title: VScode - 插件 02
-date: 2024/11/2 23:22:27
+date: '2024/11/2 23:22:27'
 categories:
-  - [Environment, Configure]
+  - - Environment
+    - Configure
+abbrlink: 38556c77
 ---
 Ctrl + P -> 系
 
