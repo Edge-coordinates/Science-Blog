@@ -1,5 +1,5 @@
 ---
-title: simpread-Minecraft JAVA 版 1
+title: reprint-Minecraft JAVA 版 1
 date: 2022/10/14
 categories:
   - Minecraft

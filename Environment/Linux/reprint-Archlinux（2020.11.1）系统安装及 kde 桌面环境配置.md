@@ -1,8 +1,9 @@
 ---
-title: simpread-Archlinux（2020
+title: reprint-Archlinux（2020
 date: 2022/10/14
 categories:
-  - [Environment, Linux]
+  - - Environment
+    - Linux
 tags: null
 abbrlink: daa51e6a
 ---

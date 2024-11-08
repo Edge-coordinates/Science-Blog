@@ -1,11 +1,11 @@
 ---
-title: simpread-MySQL Workbench 使用教程
+title: reprint-MySQL Workbench 使用教程
 date: 2022/10/14
 categories:
   - Net-excerpt
+tags: null
 reprint: true
 abbrlink: 427aebb1
-tags:
 ---
 
 

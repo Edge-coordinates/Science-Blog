@@ -1,5 +1,5 @@
 ---
-title: 阿里云服务器 - 2
+title: 使用 putty 连接阿里云服务器
 date: 2022/10/14
 categories:
   - Net-excerpt

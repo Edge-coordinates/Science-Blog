@@ -1,5 +1,5 @@
 ---
-title: simpread-OAuth2
+title: reprint-OAuth2
 date: 2022/10/14
 categories:
   - Net-excerpt

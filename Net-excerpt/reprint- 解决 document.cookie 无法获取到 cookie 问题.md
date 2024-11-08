@@ -1,5 +1,5 @@
 ---
-title: simpread-(1 条消息) 解决 document
+title: reprint- 解决 document
 date: 2022/10/14
 categories:
   - Net-excerpt

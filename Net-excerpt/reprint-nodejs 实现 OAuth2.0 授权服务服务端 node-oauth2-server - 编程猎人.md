@@ -1,5 +1,5 @@
 ---
-title: simpread-nodejs 实现 OAuth2
+title: reprint-nodejs 实现 OAuth2
 date: 2022/10/14
 categories:
   - Net-excerpt

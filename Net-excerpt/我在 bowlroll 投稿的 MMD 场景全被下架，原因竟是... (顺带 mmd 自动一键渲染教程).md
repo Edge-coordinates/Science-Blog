@@ -1,5 +1,6 @@
 ---
-title: 我在 bowlroll 投稿的 MMD 场景全被下架，原因竟是
+title: 我在 bowlroll 投稿的 MMD 场景全被下架，原因竟是... (顺带 mmd 自动一键渲染教程)
+notAutofm: true
 date: 2022/10/14
 categories:
   - Net-excerpt
