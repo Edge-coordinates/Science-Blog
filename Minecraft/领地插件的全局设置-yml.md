@@ -1,7 +1,11 @@
 ---
-abbrlink: '0'
+title: 领地插件的全局设置-yml
+date: '2024/11/9 1:58:22'
+categories:
+  - Minecraft
+abbrlink: 1dc2e20e
 ---
-
+```yaml
 # 这是领地插件的全局设置。 汉化：羽神
 # 译者注：作者在Chinese.yml中flag翻译为权限，但这里为了防止误导，会将flag翻译为“标志”，请注意和权限插件的权限区分开。
 Global:
@@ -528,3 +532,4 @@ Raid:
       containerUsage: false
   # 当设置为 false 时，玩家处于同一队伍 (袭击者 或 保卫者) 会无法对队友进行伤害
   FriendlyFire: true
+```

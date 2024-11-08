@@ -1,7 +1,11 @@
 ---
-abbrlink: '0'
+title: 计分板插件配置-yml
+date: '2024/11/9 1:58:22'
+categories:
+  - Minecraft
+abbrlink: 2dc74e5b
 ---
-
+```yaml
 #不需要权限则设置为null
 permission: null
 # 计分板优先级
@@ -46,3 +50,4 @@ scoreboard:
     interval: 1000
     lines:
       - ' &b999999999'
+```
