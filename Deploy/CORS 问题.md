@@ -7,19 +7,37 @@ abbrlink: 3823c728
 ---
 
 # CORS 问题
-
-Date: November 9, 2024 5:00 AM (GMT+8)
-Published: No
-
 referrer 信息是什么？
 
 防盗链怎么做？
 
 CORS到底是被当前网站禁止还是被请求方禁止
 
-我一直看不到控制台输出，然后竟然没有发现是因为设置了控制台搜索（关键字），以后，这种情况一定要换浏览器，检查有没有过滤！！！！
+> 整理自 Chatgpt  
+> Date: November 9, 2024 5:00 AM (GMT+8)  
+> Published: No
+
+### 个人总结
+
+吾辈一直看不到控制台输出，然后竟然没有发现是因为设置了控制台搜索（关键字），以后，这种情况一定要换浏览器，检查有没有过滤！！！！
 
 这个错误表明在响应头中 `Access-Control-Allow-Origin` 被设置了多个值（`*` 和 `*`），而 CORS 规范要求该头部只能有一个值。通常，`Access-Control-Allow-Origin` 只能包含一个域或一个 `*`，不能同时设置多个。
+
+### 新的修改方案
+```bash 
+# 第一行由 add_head 修改为 proxy_set_header
+proxy_set_header Access-Control-Allow-Origin *;
+add_header Access-Control-Allow-Methods "GET, POST, OPTIONS";
+add_header Access-Control-Allow-Headers "Content-Type, Authorization";
+if ($request_method = 'OPTIONS') {
+    add_header Access-Control-Allow-Origin *;
+    add_header Access-Control-Allow-Methods "GET, POST, OPTIONS";
+    add_header Access-Control-Allow-Headers "Content-Type, Authorization";
+    add_header Content-Length 0;
+    add_header Content-Type text/plain;
+    return 204;
+}
+```
 
 要修复这个问题，以下是一些可能的解决方法：
 
@@ -49,6 +67,26 @@ location / {
 }
 
 ```
+然而这样似乎只在**全局Nginx配置**中工作正常，直接在 1Panel 中的反向代理-源文做如此配置会触发如下报错：
+```powershell
+Access to fetch at 'https://' 
+from origin 'https://' has been blocked by CORS policy: 
+The 'Access-Control-Allow-Origin' header contains multiple values '*, *', but only one is allowed. 
+Have the server send the header with a valid value, 
+or, if an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+
+```
+
+这里贴出一般的报错：
+```powershell
+ccess to fetch at 'https://' 
+from origin 'https://' 
+has been blocked by CORS policy: 
+Response to preflight request doesn't pass access control check: 
+No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+```
+
 
 ### 2. **如果你只想允许特定的来源**
 
