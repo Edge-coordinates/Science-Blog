@@ -1,8 +1,10 @@
 ---
 title: 领地插件的全局设置-yml
-date: '2024/11/9 1:58:22'
+date: 2024/11/9 1:58:22
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
 abbrlink: 1dc2e20e
 ---
 ```yaml

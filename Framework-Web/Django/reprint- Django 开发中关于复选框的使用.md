@@ -2,7 +2,8 @@
 title: reprint- Django 开发中关于复选框的使用
 date: 2022/10/14
 categories:
-  - Django
+  - - Framework-Web
+    - Django
 tags: null
 abbrlink: ac834046
 ---

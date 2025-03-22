@@ -2,10 +2,12 @@
 title: WorldEdit  教程
 date: 2022/10/14
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
+tags: null
 reprint: true
 abbrlink: 8568c97d
-tags:
 ---
 
 [toc]

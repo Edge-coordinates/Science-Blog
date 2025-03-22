@@ -1,8 +1,8 @@
 ---
 title: 使用 Electron Forge 通过Yarn迅速建立新的项目
-date: '2024/11/2 23:22:27'
+date: 2024/11/2 23:22:27
 categories:
-  - - Javascript
+  - - Framework-APP
     - Electronjs
 abbrlink: 9d6242bf
 ---

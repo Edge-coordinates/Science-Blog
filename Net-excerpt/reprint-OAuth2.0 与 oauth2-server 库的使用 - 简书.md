@@ -2,7 +2,7 @@
 title: reprint-OAuth2
 date: 2022/10/14
 categories:
-  - Net-excerpt
+  - - Net-excerpt
 tags: null
 reprint: true
 abbrlink: ff099914

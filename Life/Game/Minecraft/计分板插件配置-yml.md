@@ -1,8 +1,10 @@
 ---
 title: 计分板插件配置-yml
-date: '2024/11/9 1:58:22'
+date: 2024/11/9 1:58:22
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
 abbrlink: 2dc74e5b
 ---
 ```yaml

@@ -1,8 +1,10 @@
 ---
 title: Yes Steve Model 模组使用说明 - Yes Steve Model 文档
-date: '2025/1/5 23:48:19'
+date: 2025/1/5 23:48:19
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
 abbrlink: 88f32e9f
 ---
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [page.cfpa.team](http://page.cfpa.team/ysm/zh/)

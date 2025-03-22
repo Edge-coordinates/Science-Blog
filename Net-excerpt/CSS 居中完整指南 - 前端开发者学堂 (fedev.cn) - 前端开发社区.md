@@ -1,8 +1,8 @@
 ---
 title: CSS 居中完整指南 - 前端开发者学堂 (fedev
-date: '2024/12/10 11:8:14'
+date: 2024/12/10 11:8:14
 categories:
-  - Net-excerpt
+  - - Net-excerpt
 abbrlink: 1587e38c
 ---
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [fedev.cn](https://fedev.cn/css/centering-css-complete-guide.html)

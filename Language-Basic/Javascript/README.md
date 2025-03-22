@@ -2,7 +2,8 @@
 title: README
 date: 2022/10/14
 categories:
-  - Javascript
+  - - Language-Basic
+    - Javascript
 tags: null
 abbrlink: 77cd4175
 ---

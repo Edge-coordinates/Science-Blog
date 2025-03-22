@@ -1,8 +1,8 @@
 ---
 title: 代理导致GenP破解Adobe失效
-date: '2025/1/5 14:18:19'
+date: 2025/1/5 14:18:19
 categories:
-  - - 踩坑指北
+  - - Pitfalls
     - NetWork
 abbrlink: 2784a2b6
 ---

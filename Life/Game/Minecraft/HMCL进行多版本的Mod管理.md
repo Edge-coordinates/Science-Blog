@@ -2,9 +2,11 @@
 title: HMCL进行多版本的Mod管理
 date: 2022/10/14
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
+tags: null
 abbrlink: 1864dd18
-tags:
 ---
 
 > https://www.mcbbs.net/thread-944728-1-1.html?msclkid=a5eed8e6ce8d11ecb07219e3c9bb3d5e

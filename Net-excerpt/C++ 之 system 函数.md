@@ -2,7 +2,7 @@
 title: C++ 之 system 函数
 date: 2022/10/14
 categories:
-  - Net-excerpt
+  - - Net-excerpt
 tags: null
 reprint: true
 abbrlink: 724ebb21

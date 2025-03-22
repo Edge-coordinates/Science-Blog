@@ -1,3 +1,9 @@
+---
+title: AI 绘图 基础
+date: 2025/3/22 15:23:3
+categories:
+  - - Design
+---
 - [基础关键词](#基础关键词)
   - [**1. CFG Scale（Classifier-Free Guidance Scale）**](#1-cfg-scaleclassifier-free-guidance-scale)
   - [**2. Sampling Method（采样方法）**](#2-sampling-method采样方法)

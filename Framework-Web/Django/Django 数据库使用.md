@@ -2,9 +2,10 @@
 title: Django 数据库使用
 date: 2022/10/14
 categories:
-  - Django
-abbrlink: '61210093'
-tags:
+  - - Framework-Web
+    - Django
+tags: null
+abbrlink: "61210093"
 ---
 
 

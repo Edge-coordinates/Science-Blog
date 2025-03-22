@@ -2,7 +2,9 @@
 title: GDB使用指南
 date: 2022/10/14
 categories:
-  - [C++, Debug]
+  - - Language-Basic
+    - C++
+    - Debug
 tags:
   - Debug
 abbrlink: a9afe229

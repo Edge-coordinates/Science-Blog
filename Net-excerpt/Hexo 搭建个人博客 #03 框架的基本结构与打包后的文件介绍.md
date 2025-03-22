@@ -2,7 +2,7 @@
 title: "Hexo 搭建个人博客 #03 框架的基本结构与打包后的文件介绍"
 date: 2022/10/14
 categories:
-  - Net-excerpt
+  - - Net-excerpt
 tags: null
 reprint: true
 abbrlink: a5f2157f

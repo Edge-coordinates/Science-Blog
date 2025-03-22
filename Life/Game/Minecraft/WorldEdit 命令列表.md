@@ -2,7 +2,9 @@
 title: WorldEdit 命令列表
 date: 2022/10/14
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
 tags: null
 abbrlink: 4ed2dd42
 ---

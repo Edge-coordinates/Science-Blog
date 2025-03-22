@@ -2,7 +2,8 @@
 title: Django manage
 date: 2022/10/14
 categories:
-  - Django
+  - - Framework-Web
+    - Django
 tags: null
 abbrlink: d507424
 ---

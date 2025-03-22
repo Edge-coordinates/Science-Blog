@@ -1,9 +1,10 @@
 ---
 title: CSGO2 入坑记实(教程)
-date: '2025/1/5 2:20:13'
+date: 2025/1/5 2:20:13
 categories:
   - - Life
     - Game
+    - CSGO
 abbrlink: cd2537d0
 ---
 

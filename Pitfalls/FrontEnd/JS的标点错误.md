@@ -2,7 +2,8 @@
 title: JS的标点错误
 date: 2022/10/14
 categories:
-  - [踩坑指北, 前端]
+  - - Pitfalls
+    - FrontEnd
 tags: null
 abbrlink: 807da433
 ---

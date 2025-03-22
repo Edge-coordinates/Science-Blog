@@ -2,9 +2,9 @@
 title: MYSQL学习笔记
 date: 2022/10/14
 categories:
-  - Environment
+  - - Database
+tags: null
 abbrlink: e613c698
-tags:
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: 0112 Telegram related
-date: '2025/1/12 18:43:49'
+date: 2025/1/12 18:43:49
 categories:
-  - - Life
-    - '2025'
+  - - Diary
+    - "2025"
 abbrlink: d26e0b2
 ---
 - [0112 Telegram related](#0112-telegram-related)

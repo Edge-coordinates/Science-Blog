@@ -2,7 +2,7 @@
 title: 使用 putty 连接阿里云服务器
 date: 2022/10/14
 categories:
-  - Net-excerpt
+  - - Net-excerpt
 tags: null
 reprint: true
 abbrlink: 4f2c986b

@@ -1,10 +1,11 @@
 ---
-title: 随即图片API的使用(同一页面请求多张图浏览器缓存导致图片相同的解决方案)
+title: 随机图片API的使用(同一页面请求多张图浏览器缓存导致图片相同的解决方案)
 date: 2022/10/14
 categories:
-  - Life
+  - - Diary
+    - "-2023"
+tags: null
 abbrlink: a58b9735
-tags:
 ---
 
 

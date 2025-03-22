@@ -2,7 +2,8 @@
 title: Scrapy 入门教程
 date: 2022/10/14
 categories:
-  - Python
+  - - Language-Basic
+    - Python
 tags:
   - Scrapy
 reprint: true

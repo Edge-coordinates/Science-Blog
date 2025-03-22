@@ -2,9 +2,10 @@
 title: index
 date: 2022/10/14
 categories:
-  - Django
-abbrlink: '80736701'
-tags:
+  - - Framework-Web
+    - Django
+tags: null
+abbrlink: "80736701"
 ---
 
 

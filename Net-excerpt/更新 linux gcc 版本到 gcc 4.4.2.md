@@ -2,7 +2,7 @@
 title: 更新 linux gcc 版本到 gcc 4
 date: 2022/10/14
 categories:
-  - Net-excerpt
+  - - Net-excerpt
 tags: null
 reprint: true
 abbrlink: 98d74cdc

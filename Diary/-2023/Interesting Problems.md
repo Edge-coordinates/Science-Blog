@@ -2,9 +2,10 @@
 title: Interesting Problems
 date: 2022/10/14
 categories:
-  - Life
+  - - Diary
+    - "-2023"
+tags: null
 abbrlink: a976e6e0
-tags:
 ---
 
 

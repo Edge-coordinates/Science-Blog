@@ -2,9 +2,10 @@
 title: Anaconda3及Python虚拟环境的使用
 date: 2022/10/14
 categories:
-  - Python
+  - - Language-Basic
+    - Python
+tags: null
 abbrlink: 4bd75ebc
-tags:
 ---
 
 

@@ -2,7 +2,8 @@
 title: AcWing 271
 date: 2022/10/14
 categories:
-  - Solution
+  - - Algorithm
+    - Solution
 tags: null
 abbrlink: cb854ff4
 ---

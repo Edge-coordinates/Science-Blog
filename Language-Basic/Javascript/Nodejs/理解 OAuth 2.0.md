@@ -2,7 +2,9 @@
 title: 理解 OAuth 2
 date: 2022/10/14
 categories:
-  - [Javascript, Nodejs]
+  - - Language-Basic
+    - Javascript
+    - Nodejs
 tags: null
 abbrlink: 132293eb
 ---

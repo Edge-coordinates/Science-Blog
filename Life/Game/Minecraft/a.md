@@ -2,9 +2,11 @@
 title: a
 date: 2022/10/14
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
+tags: null
 abbrlink: e8b7be43
-tags:
 ---
 
 

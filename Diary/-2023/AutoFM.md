@@ -2,9 +2,10 @@
 title: AutoFM
 date: 2022/10/14
 categories:
-  - Life
+  - - Diary
+    - "-2023"
+tags: null
 abbrlink: 2d05a2ab
-tags:
 ---
 
 - [AutoFM](#autofm)

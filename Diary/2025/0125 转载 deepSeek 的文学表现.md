@@ -1,9 +1,9 @@
 ---
 title: 0125 转载 deepSeek 的文学表现
-date: '2025/1/25 19:49:25'
+date: 2025/1/25 19:49:25
 categories:
-  - - Life
-    - '2025'
+  - - Diary
+    - "2025"
 abbrlink: 632afdeb
 ---
 

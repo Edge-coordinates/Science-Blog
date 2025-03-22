@@ -1,8 +1,10 @@
 ---
 title: Litematica 投影模组教程
-date: '2025/1/8 15:57:45'
+date: 2025/1/8 15:57:45
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
 abbrlink: b5a175c5
 ---
 

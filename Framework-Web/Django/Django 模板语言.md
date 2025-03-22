@@ -2,9 +2,11 @@
 title: Django 模板语言
 date: 2022/10/14
 categories:
-  - Django
+  - - Framework-Web
+    - Django
+  - JavaScript
+tags: null
 abbrlink: cc406683
-tags:
 ---
 
 

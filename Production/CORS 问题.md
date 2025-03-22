@@ -1,8 +1,8 @@
 ---
 title: CORS 问题
-date: '2024/11/9 5:10:2'
+date: 2024/11/9 5:10:2
 categories:
-  - Deploy
+  - - Production
 abbrlink: 3823c728
 ---
 

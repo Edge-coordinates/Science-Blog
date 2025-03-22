@@ -2,7 +2,7 @@
 title: reprint-nodejs 实现 OAuth2
 date: 2022/10/14
 categories:
-  - Net-excerpt
+  - - Net-excerpt
 tags: null
 reprint: true
 abbrlink: 4009585d

@@ -2,9 +2,10 @@
 title: Pyinstaller打包python程序(单程序，多程序均可)教程
 date: 2022/10/14
 categories:
-  - Python
+  - - Language-Basic
+    - Python
+tags: null
 abbrlink: 4a00808d
-tags:
 ---
 
 

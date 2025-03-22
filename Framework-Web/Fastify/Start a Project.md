@@ -2,8 +2,8 @@
 title: Start a Project
 date: 2025/3/3 23:22:21
 categories:
-  - - Javascript
-    - fastify
+  - - Framework-Web
+    - Fastify
 ---
 
 

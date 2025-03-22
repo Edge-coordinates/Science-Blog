@@ -1,9 +1,10 @@
 ---
-title: '[YSM]是，史蒂夫模型-精细模型'
-date: '2025/1/5 23:31:18'
+title: "[YSM]是，史蒂夫模型-精细模型"
+date: 2025/1/5 23:31:18
 categories:
-  - Minecraft
-  - Net-excerpt
+  - - Life
+    - Game
+    - Minecraft
 abbrlink: 7c17dc8e
 ---
 

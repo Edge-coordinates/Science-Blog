@@ -2,9 +2,10 @@
 title: C笔记
 date: 2022/10/14
 categories:
-  - C++
+  - - Language-Basic
+    - C++
+tags: null
 abbrlink: 382f3c37
-tags:
 ---
 
 

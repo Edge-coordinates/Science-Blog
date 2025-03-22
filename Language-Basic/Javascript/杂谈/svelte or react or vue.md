@@ -1,8 +1,9 @@
 ---
 title: svelte or react or vue
-date: '2024/11/2 23:22:27'
+date: 2024/11/2 23:22:27
 categories:
-  - - Javascript
+  - - Language-Basic
+    - Javascript
     - 杂谈
 abbrlink: 67c1f73d
 ---

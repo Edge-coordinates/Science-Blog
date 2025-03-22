@@ -2,7 +2,9 @@
 title: reprint-Minecraft JAVA 版 1
 date: 2022/10/14
 categories:
-  - Minecraft
+  - - Life
+    - Game
+    - Minecraft
 tags: null
 abbrlink: 7465249a
 ---

@@ -2,7 +2,7 @@
 title: reprint-面试官：CSS 如何实现固定宽高比？ - 腾讯云开发者社区 - 腾讯云
 date: 2022/10/14
 categories:
-  - Design
+  - - Design
 tags: null
 abbrlink: 5cc18268
 ---

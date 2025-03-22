@@ -1,9 +1,9 @@
 ---
 title: 樱桃键盘键位失灵-f1-f12，windows键等
-date: '2024/11/2 23:22:27'
+date: 2024/11/2 23:22:27
 categories:
-  - - 踩坑指北
-    - 硬件
+  - - Pitfalls
+    - HardWare
 abbrlink: f1b74b5d
 ---
 1：可能是电路板的问题

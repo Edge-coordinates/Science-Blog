@@ -2,9 +2,10 @@
 title: NVM的安装和使用
 date: 2022/10/14
 categories:
-  - Javascript
+  - - Language-Basic
+    - Javascript
+tags: null
 abbrlink: 5a6c750f
-tags:
 ---
 
 

@@ -2,7 +2,8 @@
 title: NOIP初赛_总结
 date: 2022/10/14
 categories:
-  - [Life, NOIP]
+  - - Life
+    - Contests
 tags: null
 abbrlink: d1c6b817
 ---
