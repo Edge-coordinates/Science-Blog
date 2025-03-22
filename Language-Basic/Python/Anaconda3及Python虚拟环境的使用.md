@@ -58,3 +58,7 @@ conda activate tensorflow_gpuenv #conda安装tensorflow的GPU版本
 conda env remove -n env_name #采用第10条的方法删除环境失败时，可采用这种方法
 
 ```
+
+## 取消 Anaconda自启动
+
+conda config --set auto_activate_base false

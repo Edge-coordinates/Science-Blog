@@ -1,5 +1,5 @@
 ---
-title: Hexo使用自动Front-matter生成器为每篇文章(包括新文章)添加Front-matter
+title: AutoFM
 date: 2022/10/14
 categories:
   - Life
@@ -7,6 +7,33 @@ abbrlink: 2d05a2ab
 tags:
 ---
 
+- [AutoFM](#autofm)
+  - [Explain](#explain)
+- [Old Python Version](#old-python-version)
+  - [功能](#功能)
+  - [代码](#代码)
+
+# AutoFM
+
+命令列表
+```
+$ autofm --help
+Usage:
+  autofm --help // print help information
+  autofm // current folder as root
+  autofm --init (-i) // init model for the whole folder
+  autofm --force (-f) // use force model to cover the old front matter
+  autofm --ct (-c) // Re generate categories and tags
+```
+
+## Explain
+
+init model：只会处理没有 Front-matter 的文章或者补全
+CT Model： 重新生成 categories and tags
+
+# Old Python Version
+
+Hexo使用自动Front-matter生成器为每篇文章(包括新文章)添加 Front-matter
 
 Hexo可以直接使用Git部署，所以可以在任何地方修改文章(只要你可以把它传到git上)，所以可以随心所欲的使用自己喜爱的编辑器，但手动为每篇文章添加Front-matter或批量修改老的Front-matter实在是太麻烦啦，于是就写了个自动化程序来干这件事情。
 
