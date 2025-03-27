@@ -1,9 +1,10 @@
 ---
 title: PowerShell 配置代理
-date: 2025/3/3 22:29:29
+date: '2025/3/3 22:29:29'
 categories:
   - - Environment
     - Windows
+abbrlink: b33f70eb
 ---
 
 检查代理配置：

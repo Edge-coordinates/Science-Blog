@@ -1,8 +1,9 @@
 ---
 title: AI 绘图 基础
-date: 2025/3/22 15:23:3
+date: '2025/3/22 15:23:3'
 categories:
   - - Design
+abbrlink: acd19762
 ---
 - [基础关键词](#基础关键词)
   - [**1. CFG Scale（Classifier-Free Guidance Scale）**](#1-cfg-scaleclassifier-free-guidance-scale)

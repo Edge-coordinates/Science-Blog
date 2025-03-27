@@ -1,9 +1,10 @@
 ---
 title: rust cargo
-date: 2025/3/22 15:41:47
+date: '2025/3/22 15:41:47'
 categories:
   - - Language-Basic
     - Rust
+abbrlink: 6b9a7c58
 ---
 
 在 Rust 中，类似于 `npm` 的工具是 **Cargo**，它是 Rust 的包管理器和构建工具。

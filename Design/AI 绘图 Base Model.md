@@ -1,8 +1,9 @@
 ---
 title: AI 绘图 Base Model
-date: 2025/3/22 15:23:3
+date: '2025/3/22 15:23:3'
 categories:
   - - Design
+abbrlink: d4d82634
 ---
 - [**1. 常见的 Base Models（基础模型）**](#1-常见的-base-models基础模型)
   - [最常见](#最常见)

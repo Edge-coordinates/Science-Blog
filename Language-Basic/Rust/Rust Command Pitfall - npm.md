@@ -1,10 +1,11 @@
 ---
 title: Rust Command Pitfall - npm
-date: 2025/3/22 16:4:13
+date: '2025/3/22 16:4:13'
 categories:
   - - Language-Basic
     - Rust
   - Rust
+abbrlink: ba6b9fd1
 ---
 
 when you code, meet this error
