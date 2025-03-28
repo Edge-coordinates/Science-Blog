@@ -1,5 +1,17 @@
-  - name: Notify the commit on Telegram
-    uses: EverythingSuckz/github-telegram-notify@main
-    with:
-      bot_token: '${{ secrets.BOT_TOKEN }}'
-      chat_id: '${{ secrets.CHAT_ID }}'
+name: Github Telegram Notifier
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Telegram Notification
+        uses: EverythingSuckz/github-telegram-notify@v1.1.2
+        with:
+          bot_token: ${{ secrets.BOT_TOKEN }}
+          chat_id: ${{ secrets.CHAT_ID }}
+          message: "🚀 已推送新内容到 main 分支！"
