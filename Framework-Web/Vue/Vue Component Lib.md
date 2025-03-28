@@ -8,7 +8,9 @@ categories:
 abbrlink: 650ebba3
 ---
 
-
+## primevue
+https://primevue.org/   
+https://volt.primevue.org/
 
 ## vuetifyjs
 https://vuetifyjs.com/en/
@@ -22,3 +24,21 @@ https://quasar.dev/
 https://www.naiveui.com/zh-CN/os-theme
 
 可爱的组件库呐
+
+## Radix Vue
+
+https://www.radix-vue.com/
+
+
+## Tailwind 组件库
+
+### tailgrids
+https://tailgrids.com/docs
+
+### daisyui
+https://daisyui.com/
+
+## headlessui
+https://headlessui.com/
+
+吾辈并不喜欢的一个组件库QWQ, primevue 也有 Unstyled Mode.
