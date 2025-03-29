@@ -1,8 +1,9 @@
 ---
 title: Github-notifier
-date: '2025/3/28 22:12:45'
+date: 2025/3/28 22:12:45
 categories:
-  - Environment
+  - - Environment
+    - Git
   - Git
 abbrlink: 9aac47e9
 ---

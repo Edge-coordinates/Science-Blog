@@ -1,8 +1,9 @@
 ---
 title: Vue-自制组件
-date: '2025/3/28 22:12:45'
+date: 2025/3/28 22:12:45
 categories:
-  - Framework-Web
+  - - Framework-Web
+    - Vue
   - Vue
 abbrlink: 26d2819b
 ---

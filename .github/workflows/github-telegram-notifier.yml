@@ -14,4 +14,3 @@ jobs:
         with:
           bot_token: ${{ secrets.BOT_TOKEN }}
           chat_id: ${{ secrets.CHAT_ID }}
-          message: "🚀 已推送新内容到 main 分支！"
