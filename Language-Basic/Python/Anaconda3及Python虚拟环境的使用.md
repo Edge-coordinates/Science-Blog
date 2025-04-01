@@ -16,8 +16,18 @@ abbrlink: 4bd75ebc
 ### 一些名词的解释
 - Python虚拟环境： 虚拟环境
 
+## conda 在命令行环境启用以及停用
+
+```powershell
+## 初始化
+conda init
+
+## 撤销
+conda init --reverse
+```
+
 ## 常用的conda命令总结
-```python 
+```powershell 
 conda --version #查看conda版本，验证是否安装
 
 conda update conda #更新至最新版本，也会更新其它相关包
