@@ -1,8 +1,9 @@
 ---
 title: Vue 组件动态参数
-date: '2025/3/29 19:31:30'
+date: 2025/3/29 19:31:30
 categories:
-  - Framework-Web
+  - - Framework-Web
+    - Vue
   - Vue
 abbrlink: 5d4bf2fe
 ---
