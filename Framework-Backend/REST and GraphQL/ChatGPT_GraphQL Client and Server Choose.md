@@ -1,8 +1,9 @@
 ---
 title: ChatGPT_GraphQL Client and Server Choose
-date: '2025/4/6 13:44:4'
+date: 2025/4/6 13:44:4
 categories:
-  - Framework-Backend
+  - - Framework-Backend
+    - REST and GraphQL
   - REST and GraphQL
 abbrlink: 2e2a017e
 ---

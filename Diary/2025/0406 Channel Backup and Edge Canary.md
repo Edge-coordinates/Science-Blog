@@ -1,9 +1,10 @@
 ---
 title: 0406 Channel Backup and Edge Canary
-date: '2025/4/6 13:44:4'
+date: 2025/4/6 13:44:4
 categories:
-  - Diary
-  - '2025'
+  - - Diary
+    - "2025"
+  - "2025"
 abbrlink: 76defbc5
 ---
 

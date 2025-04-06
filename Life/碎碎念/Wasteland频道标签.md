@@ -1,8 +1,9 @@
 ---
 title: Wasteland频道标签
-date: '2025/4/6 13:44:4'
+date: 2025/4/6 13:44:4
 categories:
-  - Life
+  - - Life
+    - 碎碎念
   - 碎碎念
 abbrlink: 7135d610
 ---
