@@ -42,6 +42,11 @@ function main(config, profileName) {
 
 > `v1.7.x` 版本的 `Merge配置` 改名为 `扩展配置` ，且prepend/append功能移动至订阅右键菜单中的可视化编辑器中实现（例如：prepend-rules移动至订阅右键菜单的 `编辑规则` 中的 `prepend`）。扩展配置仅用于配置项覆写/合并
 
+对于 V2ray, 配置如下
+```
+
+```
+
 ### 几个小问题/踩坑指北
 
 - 吾辈一开始将rulesPro添加到旧的rules后面，然后发现它并不会生效，虽然可以在规则搜索中搜到，但是不会执行

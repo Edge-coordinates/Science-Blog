@@ -33,3 +33,10 @@ https://www.mcmod.cn/download/8616.html
 纯粉丝群，可以解答模组疑惑或者发发模型制作进度
 
 如需购买模型，请前往《爱发电》搜索“苏依凛”注意别打错字了，我的部分视频下面也有链接
+
+
+## Ayame PaperDoll
+
+额外模型渲染
+
+Ayame PaperDoll or ExtraPlayerRenderer
