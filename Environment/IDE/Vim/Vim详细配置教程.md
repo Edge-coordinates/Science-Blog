@@ -2,7 +2,9 @@
 title: Vim详细配置教程
 date: 2022/10/14
 categories:
-  - [Environment, Configure]
+  - - Environment
+    - IDE
+    - Vim
 tags: null
 abbrlink: a6d1c31
 ---

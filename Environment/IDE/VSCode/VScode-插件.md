@@ -2,7 +2,9 @@
 title: VScode-插件
 date: 2022/10/14
 categories:
-  - [Environment, Configure]
+  - - Environment
+    - IDE
+    - VSCode
 tags:
   - VSCode
 abbrlink: 5cf04078

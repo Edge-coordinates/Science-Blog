@@ -1,10 +1,10 @@
 ---
 title: SOLID原则
-date: '2024/11/2 23:22:27'
+date: 2024/11/2 23:22:27
 categories:
   - - Life
-    - 碎碎念
-abbrlink: '23867083'
+    - Ramble
+abbrlink: "23867083"
 ---
 让类具有单一职责。在面向对象理论中，这是SOLID设计的原则之一
 （SOLID是指Single responsibility principle（单一职责原则）、Open/Closed principle（开闭原则）、Liskov substitutionprinciple（里氏替换原则）、Interface segregation principle（接口分离原则）和Dependency inversionprinciple（依赖倒置原则））

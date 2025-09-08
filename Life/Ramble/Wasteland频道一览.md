@@ -3,7 +3,7 @@ title: Wasteland频道一览
 date: 2025/4/6 13:53:19
 categories:
   - - Life
-    - 碎碎念
+    - Ramble
 abbrlink: cfb3a9cf
 ---
 

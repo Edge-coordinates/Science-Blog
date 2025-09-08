@@ -3,7 +3,7 @@ title: Wasteland频道标签
 date: 2025/4/6 13:44:4
 categories:
   - - Life
-    - 碎碎念
+    - Ramble
 abbrlink: 7135d610
 ---
 # 频道标签：（完整版）| Online Version  

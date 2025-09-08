@@ -3,7 +3,8 @@ title: yt-dlp 命令列表
 date: 2025/4/26 17:44:47
 categories:
   - - Environment
-    - Configure
+    - Tool
+    - CLI
 abbrlink: f29fca0e
 ---
 

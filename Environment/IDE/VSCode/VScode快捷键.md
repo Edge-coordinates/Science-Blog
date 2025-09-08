@@ -2,7 +2,9 @@
 title: VScode快捷键
 date: 2022/10/14
 categories:
-  - [Environment, Configure]
+  - - Environment
+    - IDE
+    - VSCode
 tags: null
 abbrlink: af83e57c
 ---

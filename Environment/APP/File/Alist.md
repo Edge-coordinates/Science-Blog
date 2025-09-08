@@ -3,6 +3,8 @@ title: Alist
 date: 2022/10/14
 categories:
   - - Environment
+    - APP
+    - File
 tags: null
 abbrlink: c63da1e0
 ---

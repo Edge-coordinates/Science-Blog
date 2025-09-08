@@ -2,8 +2,9 @@
 title: pnpm Build Error
 date: 2025/7/1 21:25:28
 categories:
-  - - Environment
-    - javascript
+  - - Language
+    - Javascript
+    - Environment
 abbrlink: 77ca20c5
 ---
 你遇到的报错：

@@ -3,6 +3,8 @@ title: NVIDIA APP 登陆后跳转到国区问题
 date: 2024/11/17 0:8:15
 categories:
   - - Environment
+    - APP
+    - System
 abbrlink: 595023aa
 ---
 # NVIDIA APP 登陆后跳转到国区问题

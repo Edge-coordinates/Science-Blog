@@ -2,7 +2,9 @@
 title: 解决VScode的一些问题
 date: 2022/10/14
 categories:
-  - [Environment, Configure]
+  - - Environment
+    - IDE
+    - VSCode
 tags:
   - VSCode
 abbrlink: 6ed64ad2

@@ -1,9 +1,10 @@
 ---
 title: VSCode - 15 Great VS Code Keyboard Shortcuts
-date: '2024/11/2 23:22:27'
+date: 2024/11/2 23:22:27
 categories:
   - - Environment
-    - Configure
+    - IDE
+    - VSCode
 abbrlink: 78f9bcd2
 ---
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.wearedevelopers.com](https://www.wearedevelopers.com/magazine/vs-code-shortcuts)
