@@ -1,11 +1,12 @@
 ---
 title: Space Error
-date: 2025/09/09 04:37:20
-updated: 2025/09/09 04:37:21
+date: '2025/09/09 04:37:20'
+updated: '2025/09/09 04:37:21'
 categories:
   - - Environment
     - IDE
     - VSCode
+abbrlink: edf2bff2
 ---
 
 

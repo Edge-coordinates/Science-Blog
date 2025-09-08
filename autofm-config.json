@@ -1,3 +1,25 @@
 {
-  "noCategory": ["Programming Languages"]
+    "noCategory": [],
+    "keyOrder": ["title", "date", "updated", "categories", "tags", "abbrlink"],
+    "categoryMode": "hierarchy",
+    "dateFormat": "YYYY/MM/DD HH:mm:ss",
+    "timezone": "Asia/Shanghai",
+    "backup": {
+        "enabled": false,
+        "directory": ".autofm-backup",
+        "maxFiles": 10
+    },
+    "templates": {
+        "default": {
+            "title": "",
+            "date": "",
+            "categories": [],
+            "tags": []
+        }
+    },
+    "filePatterns": {
+        "posts": "_posts",
+        "drafts": "_drafts"
+    },
+    "customFields": {}
 }
