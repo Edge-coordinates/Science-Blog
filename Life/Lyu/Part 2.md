@@ -2,7 +2,8 @@
 title: Part 2
 date: 2024/12/31 16:31:43
 categories:
-  - - Lyu
+  - - Life
+    - Lyu
 abbrlink: d6832a10
 ---
 ### Speech: Applying AI for Space Waste Management and Beyond

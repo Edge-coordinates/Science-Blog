@@ -1,5 +1,5 @@
 ---
-title: pnpmBuild报错
+title: pnpm Build Error
 date: 2025/7/1 21:25:28
 categories:
   - - Environment
