@@ -17,3 +17,5 @@ abbrlink: 77cd4175
 
 autofm -ct 才是正确指令
 autofm -c 有bug
+
+tree . 列出文件夹结构, 不含文件
