@@ -1,10 +1,11 @@
 ---
 title: yt-dlp 命令列表
-date: 2025/4/26 17:44:47
+date: '2025/4/26 17:44:47'
 categories:
   - - Environment
     - Configure
   - Configure
+abbrlink: f29fca0e
 ---
 
 `yt-dlp` 是一个强大的命令行工具，用于下载 YouTube 和其他视频网站的音视频资源。

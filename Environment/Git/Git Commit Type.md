@@ -1,9 +1,10 @@
 ---
-title: Git更新类型
-date: 2025/7/1 21:25:28
+title: Git Commit Type
+date: '2025/7/1 21:25:28'
 categories:
   - Environment
   - Git
+abbrlink: dae7767
 ---
 不是，**不仅仅只有 `feature`（或 `feat`）、`refactor`、`chore` 这三类**。
 在语义化 Git 提交流程中（尤其是 [Conventional Commits](https://www.conventionalcommits.org/) 或用于自动化版本管理 like `semantic-release`），**常用的类型有 8\~10 种以上**。

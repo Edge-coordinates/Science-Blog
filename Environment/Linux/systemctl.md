@@ -1,10 +1,11 @@
 ---
 title: systemctl
-date: 2025/4/26 17:44:47
+date: '2025/4/26 17:44:47'
 categories:
   - - Environment
     - Linux
   - Linux
+abbrlink: c53d77f
 ---
 
 服务管理

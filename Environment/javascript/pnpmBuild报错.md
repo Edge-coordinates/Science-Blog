@@ -1,9 +1,10 @@
 ---
 title: pnpmBuild报错
-date: 2025/7/1 21:25:28
+date: '2025/7/1 21:25:28'
 categories:
   - Environment
   - javascript
+abbrlink: 77ca20c5
 ---
 你遇到的报错：
 
