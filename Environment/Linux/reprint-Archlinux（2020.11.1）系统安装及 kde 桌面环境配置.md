@@ -1,5 +1,5 @@
 ---
-title: reprint-Archlinux（2020
+title: reprint-Archlinux（2020.11.1）系统安装及 kde 桌面环境配置
 date: 2022/10/14
 categories:
   - - Environment

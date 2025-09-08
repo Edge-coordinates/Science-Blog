@@ -1,10 +1,9 @@
 ---
 title: Vue 组件动画效果
-date: '2025/3/27 18:55:44'
+date: 2025/3/27 18:55:44
 categories:
   - - Framework-Web
     - Vue
-  - Vue
 abbrlink: ac878bb1
 ---
 #### You:

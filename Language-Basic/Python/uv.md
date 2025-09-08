@@ -1,9 +1,9 @@
 ---
 title: uv
-date: '2025/7/1 21:25:28'
+date: 2025/7/1 21:25:28
 categories:
-  - Language-Basic
-  - Python
+  - - Language-Basic
+    - Python
 abbrlink: aaf74b45
 ---
 你提到的那个用 Rust 编写的 Python 包和环境管理器，很可能是 **uv**。([Astral: Next-gen Python tooling][1])

@@ -1,10 +1,9 @@
 ---
 title: yt-dlp 命令列表
-date: '2025/4/26 17:44:47'
+date: 2025/4/26 17:44:47
 categories:
   - - Environment
     - Configure
-  - Configure
 abbrlink: f29fca0e
 ---
 

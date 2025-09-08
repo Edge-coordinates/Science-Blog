@@ -1,10 +1,9 @@
 ---
 title: Vue Component Lib
-date: '2025/3/27 22:22:30'
+date: 2025/3/27 22:22:30
 categories:
   - - Framework-Web
     - Vue
-  - Vue
 abbrlink: 650ebba3
 ---
 

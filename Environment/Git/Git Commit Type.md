@@ -1,9 +1,9 @@
 ---
 title: Git Commit Type
-date: '2025/7/1 21:25:28'
+date: 2025/7/1 21:25:28
 categories:
-  - Environment
-  - Git
+  - - Environment
+    - Git
 abbrlink: dae7767
 ---
 不是，**不仅仅只有 `feature`（或 `feat`）、`refactor`、`chore` 这三类**。

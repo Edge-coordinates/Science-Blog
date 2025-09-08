@@ -1,5 +1,5 @@
 ---
-title: reprint- 解决 document
+title: reprint- 解决 document.cookie 无法获取到 cookie 问题
 date: 2022/10/14
 categories:
   - - Net-excerpt

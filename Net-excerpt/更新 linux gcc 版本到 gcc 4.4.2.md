@@ -1,5 +1,5 @@
 ---
-title: 更新 linux gcc 版本到 gcc 4
+title: 更新 linux gcc 版本到 gcc 4.4.2
 date: 2022/10/14
 categories:
   - - Net-excerpt

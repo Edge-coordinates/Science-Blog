@@ -4,7 +4,6 @@ date: 2022/10/14
 categories:
   - - Framework-Web
     - Django
-  - JavaScript
 tags: null
 abbrlink: cc406683
 ---

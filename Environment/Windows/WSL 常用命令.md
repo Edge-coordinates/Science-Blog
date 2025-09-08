@@ -1,9 +1,9 @@
 ---
 title: WSL 常用命令
-date: '2025/9/8 23:11:38'
+date: 2025/9/8 23:11:38
 categories:
-  - Environment
-  - Windows
+  - - Environment
+    - Windows
 abbrlink: 8add49dd
 ---
 wsl -l -v 

@@ -1,5 +1,5 @@
 ---
-title: Django manage
+title: "Django manage.py 的使用 "
 date: 2022/10/14
 categories:
   - - Framework-Web

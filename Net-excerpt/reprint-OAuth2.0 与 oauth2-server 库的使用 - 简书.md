@@ -1,5 +1,5 @@
 ---
-title: reprint-OAuth2
+title: reprint-OAuth2.0 与 oauth2-server 库的使用 - 简书
 date: 2022/10/14
 categories:
   - - Net-excerpt

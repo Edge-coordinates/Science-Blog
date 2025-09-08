@@ -1,9 +1,9 @@
 ---
 title: Scrcpy 教程
-date: '2025/9/8 23:11:38'
+date: 2025/9/8 23:11:38
 categories:
-  - Environment
-  - Windows
+  - - Environment
+    - Windows
 abbrlink: 5dcdd3cb
 ---
 # Scrcpy 教程

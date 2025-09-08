@@ -1,5 +1,5 @@
 ---
-title: reprint-nodejs 实现 OAuth2
+title: reprint-nodejs 实现 OAuth2.0 授权服务服务端 node-oauth2-server - 编程猎人
 date: 2022/10/14
 categories:
   - - Net-excerpt

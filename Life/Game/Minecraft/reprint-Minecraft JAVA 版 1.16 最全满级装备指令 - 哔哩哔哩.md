@@ -1,5 +1,5 @@
 ---
-title: reprint-Minecraft JAVA 版 1
+title: reprint-Minecraft JAVA 版 1.16 最全满级装备指令 - 哔哩哔哩
 date: 2022/10/14
 categories:
   - - Life

@@ -1,5 +1,5 @@
 ---
-title: 理解 OAuth 2
+title: 理解 OAuth 2.0
 date: 2022/10/14
 categories:
   - - Language-Basic

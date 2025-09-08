@@ -1,10 +1,9 @@
 ---
 title: Telegram JS Bot Framework
-date: '2025/4/3 10:22:52'
+date: 2025/4/3 10:22:52
 categories:
   - - Plugin-Development
     - TGBot
-  - TGBot
 abbrlink: b1eeed04
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: PowerShell美化
-date: '2025/7/1 21:25:28'
+date: 2025/7/1 21:25:28
 categories:
-  - Environment
-  - Windows
+  - - Environment
+    - Windows
 abbrlink: 10d26df9
 ---
 - [PowerShell美化](#powershell美化)
