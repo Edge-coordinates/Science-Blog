@@ -1,6 +1,7 @@
 ---
 title: PostgreSQL学习笔记
 date: 2022/10/14
+updated: 2025/09/11 17:43:48
 categories:
   - - Database
 tags: null
@@ -10,15 +11,20 @@ abbrlink: 95327e2f
 - [几个工具](#几个工具)
   - [pg\_ctl](#pg_ctl)
   - [常用命令](#常用命令)
+- [PSQL结构](#psql结构)
+  - [Schema](#schema)
+    - [在 Prisma 里的意义](#在-prisma-里的意义)
+    - [为什么要指定 schema？](#为什么要指定-schema)
 - [用户管理](#用户管理)
-  - [✅ 一、创建新用户并设置密码](#-一创建新用户并设置密码)
-  - [🛡️ 二、授予权限（常见权限）](#️-二授予权限常见权限)
+  - [创建新用户并设置密码](#创建新用户并设置密码)
+    - [NOTE -  示例：](#note----示例)
+  - [授予权限（常见权限）](#授予权限常见权限)
     - [1. 授予创建数据库权限：](#1-授予创建数据库权限)
     - [2. 授予超级用户权限（谨慎使用）：](#2-授予超级用户权限谨慎使用)
     - [3. 授予连接数据库权限（对已有数据库）：](#3-授予连接数据库权限对已有数据库)
-  - [📦 三、在某个数据库中授予表的读写权限](#-三在某个数据库中授予表的读写权限)
-  - [🚀 四、使用 `psql` 登录 PostgreSQL 并执行以上语句](#-四使用-psql-登录-postgresql-并执行以上语句)
-  - [📁 五、可选：修改已有用户密码](#-五可选修改已有用户密码)
+  - [在某个数据库中授予表的读写权限](#在某个数据库中授予表的读写权限)
+  - [使用 `psql` 登录 PostgreSQL 并执行以上语句](#使用-psql-登录-postgresql-并执行以上语句)
+  - [修改已有用户密码](#修改已有用户密码)
 
 
 ## 几个工具
@@ -32,6 +38,11 @@ pg_ctl start
 # 启动
 psql -U postgres
 
+```
+
+DATABASE_URL
+```
+DATABASE_URL="postgresql://postgres@localhost:5432/rezics_oauth?schema=public"
 ```
 
 结尾要打一个`;`不然会逐条运行,相当于一个队列
@@ -79,26 +90,79 @@ psql -U postgres
 卧槽卧槽。
 
 
+## PSQL结构
+
+### Schema
+在 PostgreSQL 里，**数据库 (database)** 和 **模式 (schema)** 是两个不同层级的概念：
+
+* **Database**：就像是一个「图书馆」。
+* **Schema**：就像是图书馆里的「书架」。
+* **Table**：则是书架上的「书」。
+
+同一个数据库里可以有多个 schema，它们用来**组织和隔离表、视图、函数等对象**。例如：
+
+```sql
+-- 数据库 mydb 下有两个 schema
+CREATE SCHEMA sales;
+CREATE SCHEMA hr;
+
+-- sales 下的表
+CREATE TABLE sales.orders (...);
+
+-- hr 下的表
+CREATE TABLE hr.employees (...);
+```
+
+这样 `sales.orders` 和 `hr.employees` 就能在同一个数据库里共存，不会互相冲突。
+
+---
+
+#### 在 Prisma 里的意义
+
+Prisma 连接 PostgreSQL 时，`DATABASE_URL` 里的 `schema=public` 表示**默认使用哪个 schema**。
+
+* PostgreSQL 默认有一个 `public` schema，几乎所有人一开始的表都建在这里。
+* 如果你想做更清晰的隔离，可以在数据库里建一个新的 schema，比如 `app`，然后在连接字符串里写：
+
+  ```env
+  DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=app"
+  ```
+
+  Prisma 就会在 `app` 这个 schema 下生成和管理表。
+
+---
+
+#### 为什么要指定 schema？
+
+1. **多租户隔离**：一个数据库服务多个客户时，每个客户一个 schema。
+2. **逻辑分组**：不同业务模块放到不同 schema，比如 `analytics`、`auth`。
+3. **避免命名冲突**：两个团队都要建 `users` 表时，可以各自放在不同 schema 里。
+
+---
+
+换句话说：指定 database 决定了「用哪个图书馆」，指定 schema 决定了「用图书馆里的哪个书架」。
+
+
 
 ## 用户管理
 在 PostgreSQL (`psql`) 中设置一个**新用户和密码**的步骤如下：
 
 ---
 
-### ✅ 一、创建新用户并设置密码
+### 创建新用户并设置密码
 
 ```sql
 CREATE USER new_username WITH PASSWORD 'your_password';
 ```
 
-####NOTE -  示例：
+#### NOTE -  示例：
 ```sql
 CREATE USER alice WITH PASSWORD 'secure1234';
 ```
 
 ---
 
-### 🛡️ 二、授予权限（常见权限）
+### 授予权限（常见权限）
 
 根据用途授予权限：
 
@@ -119,7 +183,7 @@ GRANT CONNECT ON DATABASE your_database TO alice;
 
 ---
 
-### 📦 三、在某个数据库中授予表的读写权限
+### 在某个数据库中授予表的读写权限
 
 进入某个数据库后，再运行：
 
@@ -137,7 +201,7 @@ GRANT ALL ON TABLES TO alice;
 
 ---
 
-### 🚀 四、使用 `psql` 登录 PostgreSQL 并执行以上语句
+### 使用 `psql` 登录 PostgreSQL 并执行以上语句
 
 ```bash
 psql -U postgres
@@ -147,7 +211,7 @@ psql -U postgres
 
 ---
 
-### 📁 五、可选：修改已有用户密码
+### 修改已有用户密码
 
 ```sql
 ALTER USER alice WITH PASSWORD 'new_secure_password';
