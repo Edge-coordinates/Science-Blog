@@ -81,7 +81,7 @@ yt-dlp -f 137+140 URL
 
 | 参数 | 说明 |
 |------|------|
-| `--proxy` | 使用 HTTP/HTTPS/SOCKS 代理，例如 `--proxy socks5://127.0.0.1:1080` |
+| `--proxy` | 使用 HTTP/HTTPS/SOCKS 代理，例如 `--proxy socks5://127.0.0.1:7897` |
 | `--geo-bypass` | 绕过地理限制（默认开启） |
 | `--geo-bypass-country` | 模拟国家，如 `--geo-bypass-country US` |
 
