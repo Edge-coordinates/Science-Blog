@@ -16,6 +16,16 @@ abbrlink: 2d05a2ab
 
 # AutoFM
 
+将本地库链接到pnpm（global）
+
+```powershell
+pnpm build # 进入项目目录
+
+pnpm link --global # 这个是用来链接库的
+
+npm install -g . # 这个安装cli
+```
+
 命令列表
 ```
 $ autofm --help
