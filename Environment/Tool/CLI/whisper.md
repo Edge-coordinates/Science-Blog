@@ -21,3 +21,14 @@ pip install --upgrade pip setuptools wheel
 pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install openai-whisper
 
+## QA
+
+经常有各种问题啊
+
+重装依赖
+
+```
+
+
+pip install numpy==2.2.5
+```

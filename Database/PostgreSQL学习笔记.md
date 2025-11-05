@@ -38,7 +38,24 @@ pg_ctl start
 # 启动
 psql -U postgres
 
+pg_ctl init 之后，会创建和本机同名的用户
+
+之后使用 psql -U edgec -d postgres
+
+CREATE ROLE postgres WITH LOGIN SUPERUSER; # 无密码角色
+
 ```
+**注意**：Advanced SystemCare 的网络策略可能导致诸多问题
+
+使用公用网络可能触发Windows防火墙策略，导致pg_ctl start 失败
+
+可能需要完全重置 Winsock + TCP/IP 协议栈
+
+```
+netsh winsock reset catalog
+netsh int ip reset
+```
+
 
 DATABASE_URL
 ```
