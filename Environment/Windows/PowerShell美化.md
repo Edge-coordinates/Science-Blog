@@ -64,7 +64,9 @@ Install-Module PowerShellGet -Force -Scope CurrentUser
 ### oh-my-posh 
 最基础的包，直接上配置文件吧
 ```powershell
-oh-my-posh init pwsh --config "C:\Scoop\apps\oh-my-posh\26.5.0\themes\peru.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Users\edge\scoop\apps\oh-my-posh\current\themes\peru.omp.json" | Invoke-Expression
+
+oh-my-posh init pwsh --config "D:\config\edge\oh-my-posh\peru-catppuccin.omp.json" | Invoke-Expression
 ```
 Invoke-Expression: 执行设置  
 `peru.omp.json`: 主题名称, `themes`文件夹下`oh-my-posh`自带有很多主题，可以自行选择喜欢的
@@ -123,116 +125,85 @@ scoop install coreutils
 
 简单说一下，lsd上手容易，0配置，自带图标，很方便。eza更极简，主流？功能某方面也丰富一些
 
+----
+
+经过实际体验之后，eza 配置丰富，功能性强，最后还是选择 eza 作为ls唯一替代，允许比如 dir 颜色修改，lsd 不支持
+
+```powershell
+$env:EZA_CONFIG_DIR = "$env:USERPROFILE\.config\eza" # 配置别名
+theme.yml # 创建文件并黏贴内容
+https://github.com/catppuccin/eza?tab=readme-ov-file
+```
+
 ### rm 
 吾辈还引入了coreutils工具集，主要就是rm库了，这里不推荐覆盖原本的rm指令，因为这样的功能性指令会被大量的，遵循pwsh规范的使用，会引发很多问题，五倍是通过`Set-Alias nrm rm.exe`定义了一个新命令
 
 ## 配置文件
 
 ```powershell
-Invoke-Expression (&scoop-search --hook)
+# functions modify
 
-$env:HTTP_PROXY = "http://127.0.0.1:7897"
-$env:HTTPS_PROXY = "http://127.0.0.1:7897"
-[System.Net.WebRequest]::DefaultWebProxy = New-Object System.Net.WebProxy("http://127.0.0.1:7897")
-[System.Net.WebRequest]::DefaultWebProxy.Credentials = [System.Net.CredentialCache]::DefaultNetworkCredentials
-
-Set-Alias nrm rm.exe
-
-# --- Catppuccin for PowerShell 配置开始 ---
-
-# 1. 导入 Catppuccin 模块
-# 确保你已经按照说明正确安装了模块
-Import-Module Catppuccin
-
-# 2. 选择你喜欢的主题 (Flavor)
-# Catppuccin 有四种主题: Latte, Frappe, Macchiato, Mocha
-# 你可以把 'Mocha' 换成你喜欢的任何一个
-$Flavor = $Catppuccin['Mocha']
-
-# --- 以下是可选配置，你可以根据需要选择启用 ---
-
-# 3. 配置 PSReadLine 的语法高亮颜色
-# 这会让你的命令行输入变得五彩斑斓，强烈推荐！
-$PSReadLineColors = @{
-    # 命令，比如 Get-ChildItem
-    Command          = $Flavor.Blue.Foreground()
-    # 参数，比如 -Path
-    Parameter        = $Flavor.Pink.Foreground()
-    # 字符串，比如 "hello world"
-    String           = $Flavor.Green.Foreground()
-    # 操作符，比如 -eq, |
-    Operator         = $Flavor.Sky.Foreground()
-    # 类型，比如 [string]
-    Type             = $Flavor.Yellow.Foreground()
-    # 数字，比如 123
-    Number           = $Flavor.Peach.Foreground()
-    # 变量，比如 $myVariable
-    Variable         = $Flavor.Lavender.Foreground()
-    # 注释，比如 # 这是一个注释
-    Comment          = $Flavor.Overlay0.Foreground()
-    # 关键字，比如 function, if, else
-    Keyword          = $Flavor.Mauve.Foreground()
-    # 成员，比如 .Length
-    Member           = $Flavor.Rosewater.Foreground()
-    # 错误文本
-    Error            = $Flavor.Red.Foreground()
-    # 默认文本颜色
-    Default          = $Flavor.Text.Foreground()
-    # 行内预测文本颜色
-    InlinePrediction = $Flavor.Overlay0.Foreground()
-    # 选中时的背景色
-    Selection        = $Flavor.Surface0.Background()
-}
-Set-PSReadLineOption -Colors $PSReadLineColors
-
-# 4. 自定义你的命令提示符 (Prompt)
-# 这会改变 "PS C:\>" 的样式
-function prompt {
-    # 如果在调试模式，显示红色的 [DBG]:
-    $dbg = $(if (Test-Path variable:/PSDebugContext) { "$($Flavor.Red.Foreground())[DBG]: " } else { '' })
-    
-    # 主要提示符部分: "PS C:\"
-    $mainPrompt = "$($Flavor.Teal.Foreground())PS $($Flavor.Yellow.Foreground())$(Get-Location)"
-    
-    # 结束符 "> "
-    $endPrompt = "$($Flavor.Green.Foreground())> "
-    
-    # 组合起来并重置颜色
-    # 注意: $PSStyle.Reset 需要 PowerShell 7.2+
-    # 如果你的版本低于 7.2, 请用 "`e[0m" 替换 $PSStyle.Reset
-    "$($dbg)$($mainPrompt)$($endPrompt)$($PSStyle.Reset)"
-}
-
-# 5. 配置 PowerShell 的内置格式化颜色 (如错误、警告信息)
-# 注意: 这也需要 PowerShell 7.2+
-$PSStyle.Formatting.FormatAccent = $Flavor.Teal.Foreground()
-$PSStyle.Formatting.TableHeader = $Flavor.Rosewater.Foreground()
-$PSStyle.Formatting.Error = $Flavor.Red.Foreground()
-$PSStyle.Formatting.ErrorAccent = $Flavor.Blue.Foreground()
-$PSStyle.Formatting.Warning = $Flavor.Peach.Foreground()
-$PSStyle.Formatting.Verbose = $Flavor.Yellow.Foreground()
-$PSStyle.Formatting.Debug = $Flavor.Sky.Foreground()
-
-# --- Catppuccin for PowerShell 配置结束 ---
-
-# 你可以在这下面添加其他你自己的 PowerShell 配置
-# Clear-Host # 例如，每次启动时清屏
-Write-Host "$($Flavor.Mauve.Foreground())Catppuccin theme loaded! Welcome back.$($PSStyle.Reset)"
-
-oh-my-posh init pwsh --config "C:\Scoop\apps\oh-my-posh\26.5.0\themes\peru.omp.json" | Invoke-Expression
-
-# 移除默认内建别名
 if (Test-Path Alias:ls) {
     Remove-Item Alias:ls -Force
 }
+
 function ls {
-    if (Test-Path .git) {
-        eza --git --icons @args
-    }
-    else {
-        lsd @args
-    }
+    eza --icons @args
 }
 
+# oh-my-posh
+
+oh-my-posh init pwsh --config "D:\config\edge\oh-my-posh\peru-catppuccin.omp.json" | Invoke-Expression
+
+# --- Catppuccin Color Source -----------------------------------
+
+Import-Module Catppuccin -ErrorAction SilentlyContinue
+
+# 只在这里改主题风味
+$FlavorName = 'Mocha'   # Latte | Frappe | Macchiato | Mocha
+$Flavor = $Catppuccin[$FlavorName]
+
+# --- PSReadLine ------------------------------------------------
+
+if (Get-Module -ListAvailable PSReadLine) {
+    Import-Module PSReadLine
+
+    $PSReadLineColors = @{
+        Command                = $Flavor.Blue.Foreground()
+        Parameter              = $Flavor.Pink.Foreground()
+        Operator               = $Flavor.Sky.Foreground()
+        Variable               = $Flavor.Lavender.Foreground()
+        String                 = $Flavor.Green.Foreground()
+        Number                 = $Flavor.Peach.Foreground()
+        Type                   = $Flavor.Yellow.Foreground()
+        Comment                = $Flavor.Overlay0.Foreground()
+        Keyword                = $Flavor.Mauve.Foreground()
+        Error                  = $Flavor.Red.Foreground()
+
+        InlinePrediction       = $Flavor.Overlay0.Foreground()
+        ListPrediction         = $Flavor.Mauve.Foreground()
+        ListPredictionSelected = $Flavor.Surface0.Background()
+
+        Selection              = $Flavor.Surface0.Background()
+    }
+
+    Set-PSReadLineOption `
+        -PredictionSource History `
+        -PredictionViewStyle ListView `
+        -Colors $PSReadLineColors
+}
+
+# --- PowerShell Formatting ------------------------------------
+
+if ($PSStyle) {
+    $PSStyle.Formatting.Error         = $Flavor.Red.Foreground()
+    $PSStyle.Formatting.ErrorAccent   = $Flavor.Mauve.Foreground()
+    $PSStyle.Formatting.Warning       = $Flavor.Peach.Foreground()
+    $PSStyle.Formatting.Verbose       = $Flavor.Sky.Foreground()
+    $PSStyle.Formatting.Debug         = $Flavor.Teal.Foreground()
+    $PSStyle.Formatting.TableHeader   = $Flavor.Rosewater.Foreground()
+}
+
+# Write-Host "$($Flavor.Mauve.Foreground())Catppuccin theme loaded! Welcome back.$($PSStyle.Reset)"
 ```
 

@@ -27,3 +27,9 @@ tree . 列出文件夹结构, 不含文件
 
 !\[(.*?)\]\((.*?)\)
 ```
+
+## 更新Blog
+
+```shell
+curl http://sak.rezedge.com/updateBlog
+```
