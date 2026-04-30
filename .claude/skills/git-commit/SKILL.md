@@ -1,7 +1,9 @@
 ---
 name: git-commit
 description: >
-  Generate well-formatted Git commit messages following conventional commit standards.
+  Generate well-formatted Git commit messages following conventional commit standards,
+  adapted for this blog/notes repository (adds `notes` and `diary` types and a
+  `(YYYYMMDD)` date-scope convention for content commits).
   Use this skill whenever the user asks to commit changes, write a commit message, stage and commit,
   or says anything like "commit this", "generate a commit", "what should my commit message be",
   or "help me commit". Also trigger when the user is done with a coding task and naturally
@@ -10,6 +12,12 @@ description: >
 ---
 
 # Git Commit Message Skill
+
+> **Repo context:** this is a blog / technical-notes repository. Most commits add or expand
+> Markdown notes under `Environment/`, `Framework/`, `Language/`, `AI/`, `Agent/`, `Production/`,
+> `Life/`, or `Diary/`. The conventions below are tuned for that — **content commits use
+> `notes` / `diary` with a `(YYYYMMDD)` scope**, while tooling/config commits keep the
+> standard conventional-commit types.
 
 ## Workflow
 
@@ -45,11 +53,16 @@ If a merge is in progress, generate a merge commit message instead — see **Mer
 
 ### Step 4 — Assess commit scope
 
-If the diff touches **many unrelated concerns** (e.g., a bug fix + new feature + config change), suggest splitting:
+If the diff touches **truly unrelated concerns** (e.g., tooling/config change mixed with content notes, or a bug fix mixed with a new feature), suggest splitting:
 
 > "This diff seems to cover multiple concerns: [X, Y, Z]. Would you like me to suggest how to split these into separate commits?"
 
 If the user says yes → list the proposed splits and stop. Let the user stage the first batch before proceeding.
+
+**Blog repo exception:** multiple unrelated **notes** in one commit is normal and OK
+(e.g., a Linux note + a React note + a diary entry on the same day). Don't suggest
+splitting just because the topics differ — only split when content commits are mixed
+with config/tooling commits.
 
 Otherwise, continue with a single commit.
 
@@ -57,44 +70,70 @@ Otherwise, continue with a single commit.
 
 Use the table below to infer the type from filenames, content, and patterns. Pick the best fit.
 
-| Type       | Signals                                                                |
-| ---------- | ---------------------------------------------------------------------- |
-| `feat`     | New functions, classes, routes, UI components, capabilities            |
-| `fix`      | Bug fixes, null checks, error handling, off-by-one corrections         |
-| `chore`    | Dependency updates, config files, build scripts, `.gitignore`, tooling |
-| `docs`     | `.md`, `.txt`, comments, docstrings, README changes                    |
-| `refactor` | Renames, restructures, extractions — no behavior change                |
-| `test`     | Test files, mocks, fixtures, coverage changes                          |
-| `style`    | Formatting, whitespace, linting — no logic change                      |
-| `perf`     | Caching, algorithm optimization, reduced complexity                    |
+**Blog content types (most common for this repo):**
 
-If uncertain between two types, pick the one that best represents the *primary intent*.
+| Type     | Signals                                                                                |
+| -------- | -------------------------------------------------------------------------------------- |
+| `notes`  | New / expanded `.md` notes under `Environment/`, `Framework/`, `Language/`, `AI/`, `Agent/`, `Production/`, `Life/`, or any topical folder. Default for content. |
+| `diary`  | Entries under `Diary/` (e.g. `Diary/2026/0211 日记.md`)                                 |
+
+**Tooling / repo types (less common — for non-content changes):**
+
+| Type       | Signals                                                                       |
+| ---------- | ----------------------------------------------------------------------------- |
+| `chore`    | `.vscode/settings.json`, `.gitignore`, build/tooling configs, deps            |
+| `skill`    | Adding or editing files under `.claude/skills/`                               |
+| `docs`     | `README.md`, top-level repo documentation (NOT content notes — those are `notes`) |
+| `fix`      | Fixing a broken link, abbrlink, frontmatter, build error in the repo itself   |
+| `feat`     | New repo-level capability (rare — e.g. a new build script, theme feature)     |
+| `refactor` | Repo-wide reorganization, file moves/renames without content change           |
+| `style`    | Formatting only                                                               |
+| `test`     | Test files (rare in this repo)                                                |
+| `perf`     | Performance changes (rare in this repo)                                       |
+
+**Disambiguation rules:**
+- A new `.md` file under a content folder → `notes`, **not** `docs`. (`docs` is reserved for repo-level docs like `README.md`.)
+- Edits inside `Diary/` → always `diary`, even for short entries.
+- Mixed content + tooling diff → suggest splitting (see Step 4).
 
 Present the auto-detected type to the user and invite override:
-> "I've detected this as a `feat` commit. Let me know if you'd like a different type."
+> "I've detected this as a `notes` commit. Let me know if you'd like a different type."
 
 ### Step 6 — Generate the commit message
 
 Follow the format:
 
 ```
-<type>(<optional scope>): <title>
+<type>(<scope>): <title>
 
-- <bullet: why or what changed, high-level>
-- <bullet: ...>
+[optional body — usually omitted for content commits]
 ```
 
+**Scope rules:**
+- For `notes` and `diary` → scope is the **commit date in `YYYYMMDD`** form
+  (e.g. `notes(20260430): ...`). Use today's date unless the user specifies otherwise.
+- For `chore` / `feat` / `fix` / `skill` / etc. → scope is an **area name** if helpful
+  (`chore(vscode): ...`, `skill(git-commit): ...`), or omitted entirely (`skill: add ...`).
+- Date scope and area scope don't mix. Pick one based on the type.
+
 **Title rules:**
-- Lowercase, no period at end
-- Max 50 characters
-- Clear and specific — no vague titles like "update" or "fix stuff"
+- **English** — even when filenames or content are Chinese, the commit subject is English.
+  Topic names with no good English equivalent may stay in their original language
+  (e.g. a game title `求生之路2`), but connectors are English.
+- Lowercase first letter, no period at end.
+- Aim for ≤70 characters (a bit looser than the standard 50, because multi-topic blog
+  commits often need to list 2–4 topics).
+- For multi-topic content commits, list main topics separated by commas, optionally
+  ending with `and more` if you abbreviated:
+  `notes(20260223): ComfyUI install, AI prompts, React animations and more`
+- Specific over generic — never just `update` or `add notes`.
 
-**Body rules (optional but recommended for non-trivial changes):**
-- Use when the diff needs context or reasoning
-- Bullet points: concise, high-level, explain *why* not just *what*
-- For large diffs: include a multi-line body summarizing each area of change
-
-**Scope** (optional): a short noun indicating the area, e.g. `feat(auth):`, `fix(api):`.
+**Body rules:**
+- **Default to no body** for `notes` / `diary` / `chore` commits — the title already
+  conveys the topic list.
+- Add a body only when the change has non-obvious reasoning, a tricky bug fix,
+  or a single deep-dive note that benefits from a 1–2 line summary.
+- When used: bullet points, concise, explain *why* not just *what*.
 
 **Never** append any co-authorship, attribution, or AI-generated trailer to the commit message, regardless of the tool or environment.
 
@@ -135,35 +174,61 @@ Keep it factual. Don't over-explain standard merges.
 
 ## Edge Case Reference
 
-| Situation                       | Action                                                        |
-| ------------------------------- | ------------------------------------------------------------- |
-| Nothing staged                  | Warn and stop. Do not proceed.                                |
-| Huge diff (many files/concerns) | Suggest splitting; ask user before generating one big message |
-| Only whitespace/formatting      | Use `style` type                                              |
-| Only comment/doc changes        | Use `docs` type                                               |
-| Ambiguous type                  | Auto-detect best guess, invite override                       |
-| Merge in progress               | Use merge commit format                                       |
-| User dislikes generated message | Regenerate with their feedback; never argue                   |
+| Situation                            | Action                                                        |
+| ------------------------------------ | ------------------------------------------------------------- |
+| Nothing staged                       | Warn and stop. Do not proceed.                                |
+| Content + tooling mixed              | Suggest splitting (`notes` vs `chore`); don't combine         |
+| Multiple unrelated notes             | OK — combine into one `notes(YYYYMMDD)` commit, list topics   |
+| Only whitespace/formatting           | Use `style` type                                              |
+| README / repo-level doc change       | Use `docs` (NOT `notes` — that's for content)                 |
+| `.md` under content folder           | Use `notes` (NOT `docs`)                                      |
+| File under `Diary/`                  | Use `diary` always                                            |
+| File under `.claude/skills/`         | Use `skill`                                                   |
+| Ambiguous type                       | Auto-detect best guess, invite override                       |
+| Merge in progress                    | Use merge commit format                                       |
+| User dislikes generated message      | Regenerate with their feedback; never argue                   |
 
 ---
 
 ## Format Quick Reference
 
-```
-feat(auth): add JWT login flow
-
-- Implemented token validation against the public key endpoint
-- Added middleware to attach decoded user to request context
-```
+**Blog content (most common):**
 
 ```
-fix(ui): handle null pointer in sidebar
-
-- Sidebar crashed when user had no active org; added fallback to empty state
+notes(20260223): ComfyUI install, AI prompts, React animations and more
 ```
 
 ```
-chore: update dependencies
+notes(20260214): JS particle case sensitivity, React Compiler pitfalls
+```
 
-- Bumped eslint, typescript, and vite to latest stable versions
+```
+notes(20260330): how to use git worktree with Claude Code
+```
+
+```
+diary(20260211): daily log
+```
+
+**Tooling / repo:**
+
+```
+chore(20260430): update VSCode settings and icon library notes
+```
+
+```
+skill: add discuss-first git-commit skill
+```
+
+```
+fix: readme abbrlink error
+```
+
+**With body (rare — only when reasoning matters):**
+
+```
+notes(20260214): React Compiler pitfalls
+
+- Documented the case-sensitivity issue that broke production builds on Linux
+  but worked locally on macOS
 ```
