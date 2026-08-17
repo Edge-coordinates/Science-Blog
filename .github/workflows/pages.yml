@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: "22"
+  NODE_VERSION: "24"
   HEXO_REPO: Edge-coordinates/hexo_Science-Blog
   THEME_REPO: jerryc127/hexo-theme-butterfly
   THEME_REF: "5.2.2"
@@ -86,10 +86,22 @@ jobs:
         run: yarn hexo generate
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        id: deploy
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          workingDirectory: hexo
-          command: pages deploy public --project-name=${{ env.PAGES_PROJECT }} --commit-dirty --branch ${{ github.head_ref || github.ref_name }}
+          # Yarn 4 treats `yarn wrangler pages deploy --project-name=...` as Yarn
+          # flags and exits 1. Force npm so wrangler receives the real CLI args.
+          packageManager: npm
+          command: pages deploy hexo/public --project-name=${{ env.PAGES_PROJECT }} --commit-dirty --branch ${{ github.head_ref || github.ref_name }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deployment URL
+        if: always() && steps.deploy.outputs.deployment-url
+        env:
+          DEPLOYMENT_URL: ${{ steps.deploy.outputs.deployment-url }}
+          ALIAS_URL: ${{ steps.deploy.outputs.pages-deployment-alias-url }}
+        run: |
+          echo "deployment: $DEPLOYMENT_URL"
+          echo "alias: $ALIAS_URL"
