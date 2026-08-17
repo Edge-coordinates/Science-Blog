@@ -1,0 +1,95 @@
+name: Pages
+
+on:
+  push:
+  workflow_dispatch:
+
+concurrency:
+  group: pages-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_VERSION: "22"
+  HEXO_REPO: Edge-coordinates/hexo_Science-Blog
+  THEME_REPO: jerryc127/hexo-theme-butterfly
+  THEME_REF: "5.2.2"
+  PAGES_PROJECT: rezedge-blog
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: yarn
+          cache-dependency-path: yarn.lock
+
+      - name: Install
+        run: yarn install --immutable
+
+      - name: Setup Task
+        uses: go-task/setup-task@v1
+
+      - name: Front matter check
+        run: task fm:check
+
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - name: Checkout Hexo site
+        uses: actions/checkout@v5
+        with:
+          repository: ${{ env.HEXO_REPO }}
+          path: hexo
+          token: ${{ secrets.HEXO_REPO_TOKEN || github.token }}
+
+      - name: Checkout posts
+        uses: actions/checkout@v5
+        with:
+          path: hexo/source/_posts/Science-Blog
+
+      - name: Checkout Butterfly theme
+        uses: actions/checkout@v5
+        with:
+          repository: ${{ env.THEME_REPO }}
+          ref: ${{ env.THEME_REF }}
+          path: hexo/themes/butterfly
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: yarn
+          cache-dependency-path: hexo/yarn.lock
+
+      - name: Install Hexo deps
+        working-directory: hexo
+        run: yarn install --immutable
+
+      - name: Build
+        working-directory: hexo
+        run: yarn hexo generate
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: hexo
+          command: pages deploy public --project-name=${{ env.PAGES_PROJECT }} --commit-dirty --branch ${{ github.head_ref || github.ref_name }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

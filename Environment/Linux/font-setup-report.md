@@ -1,3 +1,11 @@
+---
+title: font-setup-report
+date: 2026/08/17 13:15:15
+categories:
+  - - Environment
+    - Linux
+abbrlink: 3e07a109
+---
 # 字體配置變更報告
 
 時間：2026-04-30

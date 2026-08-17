@@ -1,3 +1,12 @@
+---
+title: activitywatch-fix-report
+date: 2026/08/17 13:15:15
+categories:
+  - - Environment
+    - APP
+    - System
+abbrlink: 98d44b61
+---
 # ActivityWatch on Fedora 43 / KDE Plasma 6 Wayland — Fix Report
 
 **Date:** 2026-04-30

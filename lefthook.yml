@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    autofm:
+      glob: "**/*.md"
+      run: yarn fm
+      stage_fixed: true

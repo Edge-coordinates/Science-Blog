@@ -12,13 +12,15 @@ abbrlink: 77cd4175
 笔记备份
 
 
-因为不知名原因安装指令后加上
---ignore-platform-reqs
+```sh
+corepack enable
+task setup          # yarn install + lefthook
+task fm             # 补缺 front matter
+task fm:ct          # 只重写 categories / tags
+task fm:check       # CI 同款：补完后工作区必须干净
+```
 
-autofm -ct 才是正确指令
-autofm -c 有bug
-
-tree . 列出文件夹结构, 不含文件
+autofm 配置在 `.autofm/config.json`。提交前 lefthook 会跑 `yarn fm`。
 
 ## 常用正则
 
@@ -28,8 +30,6 @@ tree . 列出文件夹结构, 不含文件
 !\[(.*?)\]\((.*?)\)
 ```
 
-## 更新Blog
+## 更新 Blog
 
-```shell
-curl http://sak.rezedge.com/updateBlog
-```
+push 到 `master` 后，GitHub Actions 会构建 Hexo 并部署到 Cloudflare Pages（`rezedge-blog` / `blog.rezedge.com`）。

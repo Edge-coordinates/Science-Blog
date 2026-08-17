@@ -1,0 +1,29 @@
+version: "3"
+
+tasks:
+  setup:
+    desc: Install JS deps and git hooks
+    cmds:
+      - yarn install
+      - yarn lefthook install
+
+  fm:
+    desc: Fill missing front matter, then exit
+    cmds:
+      - yarn fm
+
+  fm:ct:
+    desc: Regenerate categories and tags only
+    cmds:
+      - yarn fm:ct
+
+  fm:check:
+    desc: Fill missing front matter and fail if the tree is dirty
+    cmds:
+      - yarn fm:check
+
+  ci:
+    desc: Immutable install + front-matter gate
+    cmds:
+      - yarn install --immutable
+      - task: fm:check

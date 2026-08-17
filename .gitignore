@@ -1,3 +1,15 @@
 TMP
 
 Clash Script.js
+
+node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.autofm/backup/
+.autofm-backup/
+*.log

@@ -1,3 +1,12 @@
+---
+title: LangChain 与 Dify：AI 应用开发的两种方式
+date: 2026/08/17 13:15:15
+categories:
+  - - Language
+    - AI
+    - Project
+abbrlink: "76667553"
+---
 # LangChain 与 Dify：AI 应用开发的两种方式
 
 随着大语言模型（LLM）的快速发展，越来越多开发者开始构建基于 AI 的应用，例如聊天机器人、智能助手、自动化工作流等。在这一领域，**LangChain** 和 **Dify** 是两个非常流行的工具，但它们解决的问题并不相同。

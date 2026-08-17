@@ -1,3 +1,12 @@
+---
+title: "求生之路2 崩溃解决办法 DXVK 替换，开启 vulkan API "
+date: 2026/08/17 13:15:15
+categories:
+  - - Life
+    - Game
+    - Left4Dead2
+abbrlink: 3b2bff5d
+---
 > 原文地址 [steamcommunity.com](https://steamcommunity.com/workshop/filedetails/?l=tchinese&id=2987081908)
 
 # 总结

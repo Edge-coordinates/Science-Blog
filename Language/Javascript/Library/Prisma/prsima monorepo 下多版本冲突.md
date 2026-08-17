@@ -1,3 +1,13 @@
+---
+title: prsima monorepo 下多版本冲突
+date: 2026/08/17 13:15:15
+categories:
+  - - Language
+    - Javascript
+    - Library
+    - Prisma
+abbrlink: ef274df5
+---
 # prsima monorepo 下多版本冲突
 
 今天吾辈遇到了这个错误，`TypeError: undefined is not an object (evaluating 't.graph')`，完整报错在底下，属实看不出任何猫腻，完完全全卡住了。

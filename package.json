@@ -1,0 +1,16 @@
+{
+  "name": "science-blog",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@4.17.1",
+  "scripts": {
+    "fm": "autofm --init",
+    "fm:ct": "autofm --ct",
+    "fm:check": "autofm --init && git diff --exit-code",
+    "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "autofm": "^2.1.0",
+    "lefthook": "^2.1.10"
+  }
+}

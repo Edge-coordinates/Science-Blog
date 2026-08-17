@@ -1,3 +1,11 @@
+---
+title: git_worktree_claude_code
+date: 2026/08/17 13:15:15
+categories:
+  - - Agent
+    - claude
+abbrlink: 78e9e48a
+---
 [toc]
 
 # Git Worktree with Claude Code
