@@ -10,7 +10,7 @@ concurrency:
 
 env:
   NODE_VERSION: "24"
-  HEXO_REPO: Edge-coordinates/hexo_Science-Blog
+  HEXO_REPO: Edge-coordinates/rezedge-blog-hexo-config
   THEME_REPO: jerryc127/hexo-theme-butterfly
   THEME_REF: "5.2.2"
   PAGES_PROJECT: rezedge-blog
@@ -58,7 +58,7 @@ jobs:
       - name: Checkout posts
         uses: actions/checkout@v5
         with:
-          path: hexo/source/_posts/Science-Blog
+          path: hexo/source/_posts/rezedge-blog
 
       - name: Checkout Butterfly theme
         uses: actions/checkout@v5
