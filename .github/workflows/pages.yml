@@ -85,6 +85,24 @@ jobs:
         working-directory: hexo
         run: yarn hexo generate
 
+      - name: Ensure Pages project
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          if npx --yes wrangler@4 pages project list --json | python3 -c '
+          import json, os, sys
+          data = json.load(sys.stdin)
+          projects = data if isinstance(data, list) else data.get("result", data.get("projects", []))
+          names = {p.get("name") for p in projects if isinstance(p, dict)}
+          sys.exit(0 if os.environ["PAGES_PROJECT"] in names else 1)
+          '; then
+            echo "Pages project ${PAGES_PROJECT} already exists"
+          else
+            npx --yes wrangler@4 pages project create "${PAGES_PROJECT}" --production-branch=master
+          fi
+
       - name: Deploy to Cloudflare Pages
         id: deploy
         uses: cloudflare/wrangler-action@v4
@@ -94,7 +112,7 @@ jobs:
           # Yarn 4 treats `yarn wrangler pages deploy --project-name=...` as Yarn
           # flags and exits 1. Force npm so wrangler receives the real CLI args.
           packageManager: npm
-          command: pages deploy hexo/public --project-name=${{ env.PAGES_PROJECT }} --commit-dirty --branch ${{ github.head_ref || github.ref_name }}
+          command: pages deploy hexo/public --project-name=${{ env.PAGES_PROJECT }} --commit-dirty=true --branch ${{ github.head_ref || github.ref_name }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deployment URL
